@@ -1,0 +1,25 @@
+[2016-05-09 14:00:55 INFO]: 000001. 用户登录(customerService.login)
+[2016-05-09 14:00:55 INFO]: -------------------------------------------------
+[2016-05-09 14:00:55 INFO]:   case:1 成功登录
+[2016-05-09 14:00:55 INFO]:   --------------------------------------------
+[2016-05-09 14:00:55 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:00:55 INFO]:      --------------------------------------------
+[2016-05-09 14:00:56 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:00:56 INFO]:      --------------------------------------------
+[2016-05-09 14:00:57 INFO]:     customerService.login:1
+[2016-05-09 14:00:57 INFO]:      --------------------------------------------
+[2016-05-09 14:00:59 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is IGB009
+[2016-05-09 14:00:59 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is IGB009
+[2016-05-09 14:00:59 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is IGB009
+[2016-05-09 14:00:59 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:00:59 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '9188'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:00:59 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"sessionId\": \"6097b716-7811-417f-ad40-2b7c259422cd\",\"message\":\"请求成功\",\"data\":[{\"secuid\":\"IGB009\",\"SESSION_KEY\":\"SSMS03e8c+4M6IZFZYDa\",\"market\":\"4\",\"~market\":\"港股\",\"SESSION\":\"SSMS03e8c+4M6IZFZYDaFMl=rIdExIV8diPws4wKBqjMVR9GT2G4TdpFqaWASRJkq+Lf4qDyynGm7=a\",\"fundid\":\"IGB009\",\"FORMATTED_ACCOUNT_ID\":\"IGB009@210.177.6.140\",\"TRADE_ACCOUNT_ID\":\"IGB009\",\"custname\":\"\",\"custid\":\"IGB009\"}]}", "result": "true"}
+[2016-05-09 14:00:59 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:00:59 INFO]:   case:2 inputtype登录类型为空
+[2016-05-09 14:00:59 INFO]:   --------------------------------------------
+[2016-05-09 14:00:59 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:00:59 INFO]:      --------------------------------------------
+[2016-05-09 14:01:00 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:01:00 INFO]:      --------------------------------------------
+[2016-05-09 14:01:00 INFO]:     customerService.login:2
+[2016-05-09 14:01:00 INFO]:      --------------------------------------------

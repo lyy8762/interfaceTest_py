@@ -1,0 +1,51 @@
+[sys]
+#系统文件
+FrameConfig=/Data/FrameConfig.xls
+TestCaseList=FrameConfig
+TestCase=/Data/TestCase.xls
+reportModelPath=/Report/ReportModel.xls
+reportPath=/Report/Report.xls
+DataPath=Data_TradeH.xls
+CaseListSheet=Trade
+#10.31.90.109 9999 10.31.90.102 1090 121.40.156.222 9090
+SocketIp=10.31.90.102
+IntSocket=1090
+Version=V_1_0
+[trade]
+TRADE_DEFAULT_DIC={
+             "customerService.getVerificationCode":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"imei": "13858045365", "debug" : "true"}}},
+             "customerService.isShowAgreement":{"CommonRequest": {"userId": "990","securitiesCode": "06"}},
+             "customerService.login":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"inputtype": "C","inputid": "IGB008","trdpwd": "1234abc","verifyCode": "","imei": "13858045365"}}},
+             "customerService.logout":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?", "imei": "13858045365"}}},
+             "queryService.queryFund":{"CommonRequest":{"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "","fundid": "IGB008","moneytype": "0"}}},
+             "queryService.queryStock":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","qryflag": "1","count": "15","stkcode": "stkcode?","market": "market?","poststr": ""}}},
+             "queryService.queryOrders":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","qryflag": "1","count": "1000","poststr": ""}}},
+             "queryService.queryDone":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","qryflag": "1","count": "1000","poststr": ""}}},
+             "queryService.getMaxTranseCount":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","market": "0","secuid": "0102797715","fundid": "IGB008","stkcode": "000010","bsflag": "0B","price": "6.86"}}},
+             "queryService.queryAvailableFund":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","moneytype": "0"}}},
+             "queryService.queryMatch":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": { "sessionId" : "sessionId?", "pattern" : "pattern?" }}},
+             "queryService.queryMarket":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": { "sessionId" : "sessionId?", "code" : "code?", "market": "market?"}}},
+             "queryService.queryMatchExact":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": { "sessionId" : "sessionId?", "stkcode" : "code?","market": "0" }}},
+             "queryService.queryStockCombination":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","detail": ""}}},
+             "tradeService.confirmTrans":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","secuid": "0102797715","stkcode": "000011","market": "0","bsflag": "0B","price": "11","qty": "100","ordergroup": "0"}}},
+             "tradeService.cancelTrans":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","ordersno": ""}}},
+             "tradeService.changeTrans":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","ordersno": "","price": "1.48","qty": "2000"}}},
+             "tradeService.confirmCombination":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid": "IGB008","detail":""}}},
+             "mobileTransService.verfyLogin": {"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"imei": "13858045365"}}},
+             "mobileTransService.getSecurities":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"imei": "13858045365"}}},
+             "customerService.queryUserInfo":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?", "custid": "IGB008"}}},
+             "customerService.modifyUserInfo":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?", "custid": "IGB008","email": "","telephone": "3420"}}},
+             "customerService.forgotPassword":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?", "custid": "IGB008","name": "name?", "idcardno": "idcardno?","email": "","telephone": "3420"}}},
+             "bankStockService.transferBankToSecurity":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId":"sessionId?","fundid":"IGB008","name": "name?", "bank": "bank?","bankcardno":"bankcardno?","tranamt":"3420","tranflowno":"tranflowno?","cur":"0"}}},
+             "bankStockService.transferSecurityToBank":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?", "fundid": "IGB008","tranamt":"3420","cur":"0"}}},
+             "bankStockService.queryBankSecuTrans":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?", "fundid": "IGB008"}}},
+	     "bankStockService.transferAccount":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "","fundid" : "", "moneytype": "0","fundpwd": "111111","bankcode": "1002","bankpwd": "111111","banktrantype": "1","tranamt": "1","pwdflag": "1","imei": "13858045365"}}},
+	     "bankStockService.queryBalance":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "?","imei": "13858045365","fundid" : "?", "moneytype": "0","fundpwd": "111111","bankcode": "4","bankpwd": "111111"}}},
+	     "bankStockService.queryBankList":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "8c2e7b68-c693-4f15-8413-98d1cc5e0971","moneytype" : "0", "bankcode": "", "fundid": "IGB008"}}},
+	     "bankStockService.thirdManagement":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","moneytype" : "0", "bankcode": ""}}},
+	     "bankStockService.queryBankTrans":{"CommonRequest": {"userId": "990","securitiesCode": "06","dynamicMap": {"sessionId": "sessionId?","fundid" : "fundid?","moneytype": "0","sno": ""}}}}
+[quotation]
+QUOTATION_ITEM={"api.thrift.quotation.security.query":["code","currency","engName","index","listedDate","listedStatus","lotsize","market","name","preName","precision","stockType","tradeType","type","updateTime"],"api.thrift.quotation.realtime":["amount","amplitude","buylist","buylistIterator","buylistSize","code","floating","floatingValue","inDish","lastClose","max","min","open","outDish","price","profit","qty","selllist","selllistIterator","selllistSize","setAmount","setAmplitude","setBuylist","setCode","setFloating","setFloatingValue","setInDish","setLastClose","setMax","setMin","setOpen","setOutDish","setPrice","setProfit","setQty","setSelllist","setStatus","setTime","setTotal","setTotalValue","setTp","setTurnoverRate","status","time","total","totalValue","tp","turnoverRate"],"api.thrift.quotation.security.queryAll":["baseSecurity","code","currency","engName","index","listedDate","listedStatus","lotsize","market","name","preName","precision","stockType","tradeType","type","updateTime"]}
+QUOTATION_CHECK_LIST={"api.thrift.quotation.security.query":"securityList","api.thrift.quotation.realtime":"quotationList","api.thrift.quotation.simple":"simpleQuotationList","api.thrift.quotation.timeTrend.query":"quotationList","api.thrift.quotation.security.queryAll":"securityList"}
+             
+

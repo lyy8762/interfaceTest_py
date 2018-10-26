@@ -1,0 +1,103 @@
+[2016-04-25 13:07:08 INFO]: 000023.委托变更(tradeService.changeTrans)
+[2016-04-25 13:07:08 INFO]: -------------------------------------------------
+[2016-04-25 13:07:09 INFO]:   case:1 委托变更成功！
+[2016-04-25 13:07:09 INFO]:   --------------------------------------------
+[2016-04-25 13:07:09 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:09 INFO]:      --------------------------------------------
+[2016-04-25 13:07:09 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:07:09 INFO]:      --------------------------------------------
+[2016-04-25 13:07:10 INFO]:     customerService.login:1
+[2016-04-25 13:07:10 INFO]:      --------------------------------------------
+[2016-04-25 13:07:21 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-04-25 13:07:21 ERROR]:         [Failed]:message expect is 请求成功,real is 请求超时，请重试
+[2016-04-25 13:07:21 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['fundid'])
+[2016-04-25 13:07:21 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is 
+[2016-04-25 13:07:21 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['secuid'])
+[2016-04-25 13:07:21 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is 
+[2016-04-25 13:07:21 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['custid'])
+[2016-04-25 13:07:21 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is 
+[2016-04-25 13:07:21 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['market'])
+[2016-04-25 13:07:21 ERROR]:         [Failed]:data.0.market expect is 4,real is 
+[2016-04-25 13:07:21 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:07:21 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '0722'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:07:21 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"请求超时，请重试\",\"data\":{}}", "result": "true"}
+[2016-04-25 13:07:21 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:07:21 INFO]:   case:2 fundid资金账户为空
+[2016-04-25 13:07:21 INFO]:   --------------------------------------------
+[2016-04-25 13:07:21 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:21 INFO]:      --------------------------------------------
+[2016-04-25 13:07:21 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:07:21 INFO]:      --------------------------------------------
+[2016-04-25 13:07:22 INFO]:     customerService.login:1
+[2016-04-25 13:07:22 INFO]:      --------------------------------------------
+[2016-04-25 13:07:23 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is IGB009
+[2016-04-25 13:07:23 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is IGB009
+[2016-04-25 13:07:23 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is IGB009
+[2016-04-25 13:07:23 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:07:23 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '0403'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:07:23 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"sessionId\": \"617d8511-ff9c-4db0-bb1e-0f9a785b5f35\",\"message\":\"请求成功\",\"data\":[{\"secuid\":\"IGB009\",\"SESSION_KEY\":\"SSMSxlANqsJ0wcYMTH5B\",\"market\":\"4\",\"~market\":\"港股\",\"SESSION\":\"SSMSxlANqsJ0wcYMTH5BVRh6Zorjr33TzMRU0t=YsO++cEQioGo8GQlkUaWASRJkq+Lf4qDyynGm7=a\",\"fundid\":\"IGB009\",\"FORMATTED_ACCOUNT_ID\":\"IGB009@210.177.6.140\",\"TRADE_ACCOUNT_ID\":\"IGB009\",\"custname\":\"\",\"custid\":\"IGB009\"}]}", "result": "true"}
+[2016-04-25 13:07:24 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:07:24 INFO]:   case:3 fundid资金账户不存在
+[2016-04-25 13:07:24 INFO]:   --------------------------------------------
+[2016-04-25 13:07:24 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:24 INFO]:      --------------------------------------------
+[2016-04-25 13:07:24 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:07:24 INFO]:      --------------------------------------------
+[2016-04-25 13:07:25 INFO]:     customerService.login:1
+[2016-04-25 13:07:25 INFO]:      --------------------------------------------
+[2016-04-25 13:07:26 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is IGB009
+[2016-04-25 13:07:26 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is IGB009
+[2016-04-25 13:07:26 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is IGB009
+[2016-04-25 13:07:26 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:07:26 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '1471'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:07:26 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"sessionId\": \"6417aefb-7685-43bd-91f9-c1e8a67f1259\",\"message\":\"请求成功\",\"data\":[{\"secuid\":\"IGB009\",\"SESSION_KEY\":\"SSMSBlvf73Ora8sESnx7\",\"market\":\"4\",\"~market\":\"港股\",\"SESSION\":\"SSMSBlvf73Ora8sESnx7ORFf5Owbyhj4IPsR99H4X7VKQnpkLxPeaQmUjyWASRJkq+Lf4qDyynGm7=a\",\"fundid\":\"IGB009\",\"FORMATTED_ACCOUNT_ID\":\"IGB009@210.177.6.140\",\"TRADE_ACCOUNT_ID\":\"IGB009\",\"custname\":\"\",\"custid\":\"IGB009\"}]}", "result": "true"}
+[2016-04-25 13:07:27 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:07:27 INFO]:   case:4 ordersno委托序号为空
+[2016-04-25 13:07:27 INFO]:   --------------------------------------------
+[2016-04-25 13:07:27 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:27 INFO]:      --------------------------------------------
+[2016-04-25 13:07:27 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:07:27 INFO]:      --------------------------------------------
+[2016-04-25 13:07:28 INFO]:     customerService.login:1
+[2016-04-25 13:07:28 INFO]:      --------------------------------------------
+[2016-04-25 13:07:30 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is IGB009
+[2016-04-25 13:07:30 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is IGB009
+[2016-04-25 13:07:30 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is IGB009
+[2016-04-25 13:07:30 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:07:30 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '0871'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:07:30 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"sessionId\": \"89f4f446-50d4-48f8-986f-5a4e84ba3103\",\"message\":\"请求成功\",\"data\":[{\"secuid\":\"IGB009\",\"SESSION_KEY\":\"SSMSebIbyDfmxYWrg4Jo\",\"market\":\"4\",\"~market\":\"港股\",\"SESSION\":\"SSMSebIbyDfmxYWrg4JoledpXIxsBOqcRXEqBMCg9xt9ujR4gBrZwarwWiWASRJkq+Lf4qDyynGm7=a\",\"fundid\":\"IGB009\",\"FORMATTED_ACCOUNT_ID\":\"IGB009@210.177.6.140\",\"TRADE_ACCOUNT_ID\":\"IGB009\",\"custname\":\"\",\"custid\":\"IGB009\"}]}", "result": "true"}
+[2016-04-25 13:07:31 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:07:31 INFO]:   case:5 ordersno委托序号不存在
+[2016-04-25 13:07:31 INFO]:   --------------------------------------------
+[2016-04-25 13:07:31 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:31 INFO]:      --------------------------------------------
+[2016-04-25 13:07:31 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:07:31 INFO]:      --------------------------------------------
+[2016-04-25 13:07:32 INFO]:     customerService.login:1
+[2016-04-25 13:07:32 INFO]:      --------------------------------------------
+[2016-04-25 13:07:34 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is IGB009
+[2016-04-25 13:07:34 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is IGB009
+[2016-04-25 13:07:34 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is IGB009
+[2016-04-25 13:07:34 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:07:34 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '4274'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:07:34 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"sessionId\": \"1d3170c2-8e1f-413b-88b4-d89237b1024f\",\"message\":\"请求成功\",\"data\":[{\"secuid\":\"IGB009\",\"SESSION_KEY\":\"SSMSZAkRzUnYS0dYb0pL\",\"market\":\"4\",\"~market\":\"港股\",\"SESSION\":\"SSMSZAkRzUnYS0dYb0pL6PfW0kc8ZpImDpI4LBF+B1L9g69pN8eIRJsCniWASRJkq+Lf4qDyynGm7=a\",\"fundid\":\"IGB009\",\"FORMATTED_ACCOUNT_ID\":\"IGB009@210.177.6.140\",\"TRADE_ACCOUNT_ID\":\"IGB009\",\"custname\":\"\",\"custid\":\"IGB009\"}]}", "result": "true"}
+[2016-04-25 13:07:34 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:07:35 INFO]:   case:6 ordersno委托序号为字符
+[2016-04-25 13:07:35 INFO]:   --------------------------------------------
+[2016-04-25 13:07:35 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:35 INFO]:      --------------------------------------------
+[2016-04-25 13:07:35 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:07:35 INFO]:      --------------------------------------------
+[2016-04-25 13:07:36 INFO]:     customerService.login:1
+[2016-04-25 13:07:36 INFO]:      --------------------------------------------
+[2016-04-25 13:07:37 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is IGB009
+[2016-04-25 13:07:37 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is IGB009
+[2016-04-25 13:07:37 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is IGB009
+[2016-04-25 13:07:37 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:07:37 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '3298'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:07:37 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"sessionId\": \"b9bb4b1f-3ef9-4560-b766-9dcecffc7a33\",\"message\":\"请求成功\",\"data\":[{\"secuid\":\"IGB009\",\"SESSION_KEY\":\"SSMSpAtchoSGzb4qYJ=N\",\"market\":\"4\",\"~market\":\"港股\",\"SESSION\":\"SSMSpAtchoSGzb4qYJ=N9QVK3FugMVl3jKB1gHIsXY4wTHUzcM1dJd+DYyWASRJkq+Lf4qDyynGm7=a\",\"fundid\":\"IGB009\",\"FORMATTED_ACCOUNT_ID\":\"IGB009@210.177.6.140\",\"TRADE_ACCOUNT_ID\":\"IGB009\",\"custname\":\"\",\"custid\":\"IGB009\"}]}", "result": "true"}
+[2016-04-25 13:07:37 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:07:38 INFO]:   case:7 price价格为空
+[2016-04-25 13:07:38 INFO]:   --------------------------------------------
+[2016-04-25 13:07:38 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:07:38 INFO]:      --------------------------------------------

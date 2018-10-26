@@ -1,0 +1,49 @@
+[2016-05-27 13:22:21 INFO]: 000001. 用户登录(customerService.login)
+[2016-05-27 13:22:21 INFO]: -------------------------------------------------
+[2016-05-27 13:22:22 INFO]:   case:1 成功登录
+[2016-05-27 13:22:22 INFO]:   --------------------------------------------
+[2016-05-27 13:22:22 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:22:22 INFO]:      --------------------------------------------
+[2016-05-27 13:22:22 INFO]:     customerService.isShowAgreement:1
+[2016-05-27 13:22:22 INFO]:      --------------------------------------------
+[2016-05-27 13:22:32 INFO]:     customerService.login:1
+[2016-05-27 13:22:32 INFO]:      --------------------------------------------
+[2016-05-27 13:22:38 ERROR]:      exception:(-2147352567, '\xb7\xa2\xc9\xfa\xd2\xe2\xcd\xe2\xa1\xa3', (0, u'Microsoft Excel', u'\u7c7b Workbooks \u7684 Open \u65b9\u6cd5\u65e0\u6548', u'xlmain11.chm', 0, -2146827284), None)
+[2016-05-27 13:22:38 ERROR]:   [CaseResult]:Failed
+[2016-05-27 13:22:38 INFO]:   case:2 inputtype登录类型为空
+[2016-05-27 13:22:38 INFO]:   --------------------------------------------
+[2016-05-27 13:22:38 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:22:38 INFO]:      --------------------------------------------
+[2016-05-27 13:22:40 ERROR]:      exception:(-2147352567, '\xb7\xa2\xc9\xfa\xd2\xe2\xcd\xe2\xa1\xa3', (0, u'Microsoft Excel', u'\u7c7b Workbooks \u7684 Open \u65b9\u6cd5\u65e0\u6548', u'xlmain11.chm', 0, -2146827284), None)
+[2016-05-27 13:22:40 ERROR]:   [CaseResult]:Failed
+[2016-05-27 13:22:40 INFO]:   case:3 inputtype登录类型为非“C”的值
+[2016-05-27 13:22:40 INFO]:   --------------------------------------------
+[2016-05-27 13:22:40 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:22:40 INFO]:      --------------------------------------------
+[2016-05-27 13:22:41 ERROR]:      exception:(-2147352567, '\xb7\xa2\xc9\xfa\xd2\xe2\xcd\xe2\xa1\xa3', (0, u'Microsoft Excel', u'\u7c7b Workbooks \u7684 Open \u65b9\u6cd5\u65e0\u6548', u'xlmain11.chm', 0, -2146827284), None)
+[2016-05-27 13:22:41 ERROR]:   [CaseResult]:Failed
+[2016-05-27 13:22:41 INFO]:   case:4 inputid登录标识不存在
+[2016-05-27 13:22:41 INFO]:   --------------------------------------------
+[2016-05-27 13:22:41 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:22:41 INFO]:      --------------------------------------------
+[2016-05-27 13:22:41 ERROR]:      exception:(-2147352567, '\xb7\xa2\xc9\xfa\xd2\xe2\xcd\xe2\xa1\xa3', (0, u'Microsoft Excel', u'\u7c7b Workbooks \u7684 Open \u65b9\u6cd5\u65e0\u6548', u'xlmain11.chm', 0, -2146827284), None)
+[2016-05-27 13:22:41 ERROR]:   [CaseResult]:Failed
+[2016-05-27 13:22:42 INFO]:   case:5 inputid登录标识超过12位
+[2016-05-27 13:22:42 INFO]:   --------------------------------------------
+[2016-05-27 13:22:42 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:22:42 INFO]:      --------------------------------------------
+[2016-05-27 13:22:42 ERROR]:      exception:(-2147352567, '\xb7\xa2\xc9\xfa\xd2\xe2\xcd\xe2\xa1\xa3', (0, u'Microsoft Excel', u'\u7c7b Workbooks \u7684 Open \u65b9\u6cd5\u65e0\u6548', u'xlmain11.chm', 0, -2146827284), None)
+[2016-05-27 13:22:42 ERROR]:   [CaseResult]:Failed
+[2016-05-27 13:22:42 INFO]:   case:6 inputid登录标识不足12位
+[2016-05-27 13:22:42 INFO]:   --------------------------------------------
+[2016-05-27 13:22:42 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:22:42 INFO]:      --------------------------------------------
+[2016-05-27 13:23:03 INFO]:     customerService.isShowAgreement:1
+[2016-05-27 13:23:03 INFO]:      --------------------------------------------
+[2016-05-27 13:23:08 INFO]:     customerService.login:6
+[2016-05-27 13:23:08 INFO]:      --------------------------------------------
+[2016-05-27 13:23:11 INFO]:   [CaseResult]:Pass
+[2016-05-27 13:23:12 INFO]:   case:9 verifyCode验证码为空
+[2016-05-27 13:23:12 INFO]:   --------------------------------------------
+[2016-05-27 13:23:12 INFO]:     customerService.getVerificationCode:1
+[2016-05-27 13:23:12 INFO]:      --------------------------------------------

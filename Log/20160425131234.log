@@ -1,0 +1,60 @@
+[2016-04-25 13:12:36 INFO]: 000001. 用户登录(customerService.login)
+[2016-04-25 13:12:36 INFO]: -------------------------------------------------
+[2016-04-25 13:12:36 INFO]:   case:1 成功登录
+[2016-04-25 13:12:36 INFO]:   --------------------------------------------
+[2016-04-25 13:12:36 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:12:36 INFO]:      --------------------------------------------
+[2016-04-25 13:12:37 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:12:37 INFO]:      --------------------------------------------
+[2016-04-25 13:12:38 INFO]:     customerService.login:1
+[2016-04-25 13:12:38 INFO]:      --------------------------------------------
+[2016-04-25 13:12:38 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-04-25 13:12:38 ERROR]:         [Failed]:message expect is 请求成功,real is 登录失败，请重新确认账户及密码！
+[2016-04-25 13:12:38 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['fundid'])
+[2016-04-25 13:12:38 ERROR]:         [Failed]:data.0.fundid expect is IGB008,real is 
+[2016-04-25 13:12:38 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['secuid'])
+[2016-04-25 13:12:38 ERROR]:         [Failed]:data.0.secuid expect is IGB008,real is 
+[2016-04-25 13:12:38 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['custid'])
+[2016-04-25 13:12:38 ERROR]:         [Failed]:data.0.custid expect is IGB008,real is 
+[2016-04-25 13:12:38 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['market'])
+[2016-04-25 13:12:38 ERROR]:         [Failed]:data.0.market expect is 4,real is 
+[2016-04-25 13:12:38 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:12:38 INFO]:         input:{u'CommonRequest': {u'userId': u'990', u'dynamicMap': {u'imei': u'13858045365', u'trdpwd': u'9904abc', u'inputid': u'IGB008', u'inputtype': u'C', u'verifyCode': '5774'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:12:38 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"登录失败，请重新确认账户及密码！\",\"data\":{}}", "result": "true"}
+[2016-04-25 13:12:39 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:12:39 INFO]:   case:2 inputtype登录类型为空
+[2016-04-25 13:12:39 INFO]:   --------------------------------------------
+[2016-04-25 13:12:39 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:12:39 INFO]:      --------------------------------------------
+[2016-04-25 13:12:39 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:12:39 INFO]:      --------------------------------------------
+[2016-04-25 13:12:40 INFO]:     customerService.login:2
+[2016-04-25 13:12:40 INFO]:      --------------------------------------------
+[2016-04-25 13:12:40 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-04-25 13:12:40 ERROR]:         [Failed]:message expect is 请求成功,real is 登录失败，请重新确认账户及密码！
+[2016-04-25 13:12:40 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:12:40 INFO]:         input:{u'CommonRequest': {u'userId': u'990', u'dynamicMap': {u'imei': u'13858045365', u'trdpwd': u'9904abc', u'inputid': u'IGB008', u'inputtype': '', u'verifyCode': '4378'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:12:40 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"登录失败，请重新确认账户及密码！\",\"data\":{}}", "result": "true"}
+[2016-04-25 13:12:41 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:12:41 INFO]:   case:3 inputtype登录类型为非“C”的值
+[2016-04-25 13:12:41 INFO]:   --------------------------------------------
+[2016-04-25 13:12:41 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:12:41 INFO]:      --------------------------------------------
+[2016-04-25 13:12:41 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:12:41 INFO]:      --------------------------------------------
+[2016-04-25 13:12:42 INFO]:     customerService.login:3
+[2016-04-25 13:12:42 INFO]:      --------------------------------------------
+[2016-04-25 13:12:42 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-04-25 13:12:42 ERROR]:         [Failed]:message expect is 请求成功,real is 账户被停用或关闭，请联系金贝塔证券（香港）解决！
+[2016-04-25 13:12:42 ERROR]:      [InterfaceResult]:Failed
+[2016-04-25 13:12:42 INFO]:         input:{u'CommonRequest': {u'userId': u'990', u'dynamicMap': {u'imei': u'13858045365', u'trdpwd': u'9904abc', u'inputid': u'IGB008', u'inputtype': 'G', u'verifyCode': '5282'}, u'securitiesCode': u'06'}}
+[2016-04-25 13:12:42 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"账户被停用或关闭，请联系金贝塔证券（香港）解决！\",\"data\":{}}", "result": "true"}
+[2016-04-25 13:12:43 ERROR]:   [CaseResult]:Failed
+[2016-04-25 13:12:43 INFO]:   case:4 inputid登录标识不存在
+[2016-04-25 13:12:43 INFO]:   --------------------------------------------
+[2016-04-25 13:12:43 INFO]:     customerService.getVerificationCode:1
+[2016-04-25 13:12:43 INFO]:      --------------------------------------------
+[2016-04-25 13:12:43 INFO]:     customerService.isShowAgreement:1
+[2016-04-25 13:12:43 INFO]:      --------------------------------------------
+[2016-04-25 13:12:44 INFO]:     customerService.login:4
+[2016-04-25 13:12:44 INFO]:      --------------------------------------------

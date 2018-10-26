@@ -1,0 +1,31 @@
+[2016-04-21 10:13:13 INFO]: 000019.查询用户资料（customerService.queryUserInfo)
+[2016-04-21 10:13:13 INFO]: -------------------------------------------------
+[2016-04-21 10:13:14 INFO]:   case:1 查询用户资料
+[2016-04-21 10:13:14 INFO]:   --------------------------------------------
+[2016-04-21 10:13:14 INFO]:     customerService.getVerificationCode:1
+[2016-04-21 10:13:14 INFO]:      --------------------------------------------
+[2016-04-21 10:13:14 INFO]:     customerService.isShowAgreement:1
+[2016-04-21 10:13:14 INFO]:      --------------------------------------------
+[2016-04-21 10:13:15 INFO]:     customerService.login:1
+[2016-04-21 10:13:15 INFO]:      --------------------------------------------
+[2016-04-21 10:13:17 INFO]:     customerService.modifyUserInfo:1
+[2016-04-21 10:13:17 INFO]:      --------------------------------------------
+[2016-04-21 10:13:35 INFO]:     customerService.queryUserInfo:1
+[2016-04-21 10:13:35 INFO]:      --------------------------------------------
+[2016-04-21 10:13:40 ERROR]:         [Failed]:data.telephone expect is '92345556710',real is 92345556710
+[2016-04-21 10:13:40 ERROR]:      [InterfaceResult]:Failed
+[2016-04-21 10:13:40 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {'fundid': 'IGB009', u'sessionId': 'fe3622d5-8b17-4a5b-a5e8-ffc6892c13dc', u'custid': u'IGB009'}, u'securitiesCode': u'06'}}
+[2016-04-21 10:13:40 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"1\",\"message\":\"请求成功\",\"data\":{\"email\":\"123@163.com\",\"telephone\":\"92345556710\"}}", "result": "true"}
+[2016-04-21 10:13:40 ERROR]:   [CaseResult]:Failed
+[2016-04-21 10:13:40 INFO]: 000020.入金(bankStockService.transferBankToSecurity)
+[2016-04-21 10:13:40 INFO]: -------------------------------------------------
+[2016-04-21 10:13:41 INFO]:   case:1 银行转证券(入金）成功-人民币
+[2016-04-21 10:13:41 INFO]:   --------------------------------------------
+[2016-04-21 10:13:41 INFO]:     customerService.getVerificationCode:1
+[2016-04-21 10:13:41 INFO]:      --------------------------------------------
+[2016-04-21 10:13:42 INFO]:     customerService.isShowAgreement:1
+[2016-04-21 10:13:42 INFO]:      --------------------------------------------
+[2016-04-21 10:13:42 INFO]:     customerService.login:1
+[2016-04-21 10:13:42 INFO]:      --------------------------------------------
+[2016-04-21 10:13:45 INFO]:     bankStockService.transferBankToSecurity:1
+[2016-04-21 10:13:45 INFO]:      --------------------------------------------

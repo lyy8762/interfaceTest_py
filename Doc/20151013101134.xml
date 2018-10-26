@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html style="font-size: 37.5px;">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport"
+				content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+				<meta name="apple-mobile-web-app-capable" content="yes">
+					<meta name="apple-mobile-web-app-status-bar-style" content="black">
+						<meta name="format-detection" content="telephone=no">
+							<meta name="screen-orientation" content="portrait">
+								<meta name="x5-orientation" content="portrait">
+									<meta http-equiv="Cache-Control" content="no-cache">
+										<title>登录-金贝塔</title>
+										<meta name="keywords" content="">
+											<meta name="description" content="">
+												<script src="../js/ext/native.js"></script>
+												<link rel="stylesheet" href="../css/landed.css">
+	</head>
+	<body class=" app-android app-android-4 app-no-scrollbar" style="display: block;">
+		<div class="wrap">
+			<div class="line"></div>
+			<div class="landed-txt text-width">已有国信证券公司的账户？</div>
+			<a href="javascript:;" class="landed" id="btn-landed">登录证券交易</a>
+			<div class="line"></div>
+			<div class="landed-txt text-width2">还没有证券账户？</div>
+			<span class="colora">
+				<a
+					href="http://www.guosen.com.cn/gxzq/openaccount/prompt.jsp?promptcode=S&amp;prompttype=2"
+					target="_blank" class="account">立即开户</a>
+			</span>
+			<div class="footer">
+				<span>更多券商，敬请期待</span>
+			</div>
+		</div>
+		<div class="agreement">
+			<div class="agreement-txt">
+				<h3>账户信息授权书</h3>
+				<div>国信证券股份有限公司：</div>
+				<p>本人系深圳市金篮子网络有限公司（以下简称“金篮子”）所经营的“金贝塔”互联网证券信息服务平台（以下简称“服务平台”）的注册用户。为更好利用服务平台功能，满足本人投资交流需求，本人决定向金篮子提供本人在你司开立的账户的部分信息。现本人特对你司作如下授权：
+				</p>
+				<p class="gap">（一）授权范围及方式</p>
+				<p>1、授权将以下信息提供给金贝塔（服务平台）：</p>
+				<p>（1）账户资料（股东代码、资金账户），但不包括本人姓名、证件类型、证件号码、通信地址、邮箱、联系电话；</p>
+				<p>（2）资金数据；</p>
+				<p>（3）股份数据；</p>
+				<p>（4）实时成交数据；</p>
+				<p>（5）交割单流水；</p>
+				<p>（6）特定交易权限开通情况（创业板、市价委托）。</p>
+				<p>2、授权按以下方式提供信息：</p>
+				<p>（1） 金贝塔服务平台向国信证券查询授权信息；</p>
+				<p>（2）国信证券向金贝塔服务平台推送授权信息。</p>
+				<p class="gap">（二）本人承诺和声明：</p>
+				<p>1、本授权书是本人真实意思表示，本人对你司按照上述授权范围和方式将本人信息提供给金贝塔（服务平台）所可能产生的一切后果负责，并保证在任何情况下均不会以任何原因、以任何方式要求你司承担执行本授权书所可能产生的赔偿责任。
+				</p>
+				<p>2、本人清楚，本人有支配自己账户信息的权利，此项授权是本人处置个人账户信息的行为，与你司对客户信息的保密义务无关。</p>
+				<p>3、本人清楚，本人可随时撤销对你司的授权，你司在本人撤销授权后将立即停止传递本人的相关信息给金贝塔（服务平台）。但本人仍需承担撤销授权之前向金贝塔（服务平台）提供信息所可能产生的一切后果。
+				</p>
+				<p>4、本人同意，你司基于法律法规或监管政策变化、内部制度要求、技术因素或其他任何理由，可终止接受本人的上述授权，停止向金贝塔（服务平台）提供授权信息，且无须事先通知本人。
+				</p>
+				<p>5、本人清楚，无论本人是否认真阅读本授权书内容，只要本人勾选了“同意《账户信息授权书》”，本人的行为表示本人同意按照本授权书的内容向你司进行授权。
+				</p>
+			</div>
+			<div class="agreement-ft">
+				<a href="javascript:;" class="agreement-btn">我同意</a>
+			</div>
+		</div>
+		<script src="../js/common.js"></script>
+		<script src="../js/public.js"></script>
+		<script>var pageName = 'landed';
+			if(pageName !== ''){
+			var script = document.createElement("script");
+			script.src = "../js/"+pageName+".js";
+			document.getElementsByTagName("body")[0].appendChild(script);
+			}
+		</script>
+		<script src="../js/landed.js"></script>
+		<div class="overlay-disable"></div>
+	</body>
+</html>

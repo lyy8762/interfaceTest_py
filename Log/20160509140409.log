@@ -1,0 +1,1126 @@
+[2016-05-09 14:04:11 INFO]: 000001. 用户登录(customerService.login)
+[2016-05-09 14:04:11 INFO]: -------------------------------------------------
+[2016-05-09 14:04:11 INFO]:   case:1 成功登录
+[2016-05-09 14:04:11 INFO]:   --------------------------------------------
+[2016-05-09 14:04:11 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:11 INFO]:      --------------------------------------------
+[2016-05-09 14:04:11 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:11 INFO]:      --------------------------------------------
+[2016-05-09 14:04:12 INFO]:     customerService.login:1
+[2016-05-09 14:04:12 INFO]:      --------------------------------------------
+[2016-05-09 14:04:14 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:14 INFO]:   case:2 inputtype登录类型为空
+[2016-05-09 14:04:14 INFO]:   --------------------------------------------
+[2016-05-09 14:04:14 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:14 INFO]:      --------------------------------------------
+[2016-05-09 14:04:15 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:15 INFO]:      --------------------------------------------
+[2016-05-09 14:04:15 INFO]:     customerService.login:2
+[2016-05-09 14:04:15 INFO]:      --------------------------------------------
+[2016-05-09 14:04:17 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:17 INFO]:   case:3 inputtype登录类型为非“C”的值
+[2016-05-09 14:04:17 INFO]:   --------------------------------------------
+[2016-05-09 14:04:17 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:17 INFO]:      --------------------------------------------
+[2016-05-09 14:04:18 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:18 INFO]:      --------------------------------------------
+[2016-05-09 14:04:18 INFO]:     customerService.login:3
+[2016-05-09 14:04:18 INFO]:      --------------------------------------------
+[2016-05-09 14:04:20 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:20 INFO]:   case:4 inputid登录标识不存在
+[2016-05-09 14:04:20 INFO]:   --------------------------------------------
+[2016-05-09 14:04:20 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:20 INFO]:      --------------------------------------------
+[2016-05-09 14:04:21 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:21 INFO]:      --------------------------------------------
+[2016-05-09 14:04:21 INFO]:     customerService.login:4
+[2016-05-09 14:04:22 INFO]:      --------------------------------------------
+[2016-05-09 14:04:22 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:22 INFO]:   case:5 inputid登录标识超过12位
+[2016-05-09 14:04:22 INFO]:   --------------------------------------------
+[2016-05-09 14:04:22 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:22 INFO]:      --------------------------------------------
+[2016-05-09 14:04:23 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:23 INFO]:      --------------------------------------------
+[2016-05-09 14:04:24 INFO]:     customerService.login:5
+[2016-05-09 14:04:24 INFO]:      --------------------------------------------
+[2016-05-09 14:04:25 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:25 INFO]:   case:6 inputid登录标识不足12位
+[2016-05-09 14:04:25 INFO]:   --------------------------------------------
+[2016-05-09 14:04:25 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:25 INFO]:      --------------------------------------------
+[2016-05-09 14:04:25 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:25 INFO]:      --------------------------------------------
+[2016-05-09 14:04:26 INFO]:     customerService.login:6
+[2016-05-09 14:04:26 INFO]:      --------------------------------------------
+[2016-05-09 14:04:27 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:27 INFO]:   case:9 verifyCode验证码为空
+[2016-05-09 14:04:27 INFO]:   --------------------------------------------
+[2016-05-09 14:04:27 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:27 INFO]:      --------------------------------------------
+[2016-05-09 14:04:28 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:28 INFO]:      --------------------------------------------
+[2016-05-09 14:04:28 INFO]:     customerService.login:9
+[2016-05-09 14:04:28 INFO]:      --------------------------------------------
+[2016-05-09 14:04:29 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:29 INFO]:   case:10 verifyCode验证码错误
+[2016-05-09 14:04:29 INFO]:   --------------------------------------------
+[2016-05-09 14:04:29 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:29 INFO]:      --------------------------------------------
+[2016-05-09 14:04:29 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:29 INFO]:      --------------------------------------------
+[2016-05-09 14:04:30 INFO]:     customerService.login:10
+[2016-05-09 14:04:30 INFO]:      --------------------------------------------
+[2016-05-09 14:04:31 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:31 INFO]: 000002. 委托确认(tradeService.confirmTrans)
+[2016-05-09 14:04:31 INFO]: -------------------------------------------------
+[2016-05-09 14:04:31 INFO]:   case:1 老股买委托成功
+[2016-05-09 14:04:31 INFO]:   --------------------------------------------
+[2016-05-09 14:04:31 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:31 INFO]:      --------------------------------------------
+[2016-05-09 14:04:32 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:32 INFO]:      --------------------------------------------
+[2016-05-09 14:04:32 INFO]:     customerService.login:1
+[2016-05-09 14:04:32 INFO]:      --------------------------------------------
+[2016-05-09 14:04:34 INFO]:     tradeService.confirmTrans:1
+[2016-05-09 14:04:34 INFO]:      --------------------------------------------
+[2016-05-09 14:04:37 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:37 INFO]:   case:2 老股卖委托成功
+[2016-05-09 14:04:37 INFO]:   --------------------------------------------
+[2016-05-09 14:04:37 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:37 INFO]:      --------------------------------------------
+[2016-05-09 14:04:37 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:37 INFO]:      --------------------------------------------
+[2016-05-09 14:04:38 INFO]:     customerService.login:1
+[2016-05-09 14:04:38 INFO]:      --------------------------------------------
+[2016-05-09 14:04:44 INFO]:     tradeService.confirmTrans:2
+[2016-05-09 14:04:44 INFO]:      --------------------------------------------
+[2016-05-09 14:04:45 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:04:45 ERROR]:         [Failed]:message expect is 请求成功,real is 卖出价低于买卖24档，请修改价格重试！
+[2016-05-09 14:04:45 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:04:45 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB009', u'secuid': 'IGB009', u'price': 1.43, u'qty': 2000, u'sessionId': '9c4e14d1-7593-4676-be59-a9fad5d29c46', u'ordergroup': u'0', u'stkcode': '03330', u'bsflag': '0S', u'market': 4}, u'securitiesCode': u'06'}}
+[2016-05-09 14:04:45 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"卖出价低于买卖24档，请修改价格重试！\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:04:45 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:04:45 INFO]:   case:3 新股买委托成功
+[2016-05-09 14:04:45 INFO]:   --------------------------------------------
+[2016-05-09 14:04:45 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:45 INFO]:      --------------------------------------------
+[2016-05-09 14:04:45 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:45 INFO]:      --------------------------------------------
+[2016-05-09 14:04:46 INFO]:     customerService.login:1
+[2016-05-09 14:04:46 INFO]:      --------------------------------------------
+[2016-05-09 14:04:48 INFO]:     tradeService.confirmTrans:3
+[2016-05-09 14:04:48 INFO]:      --------------------------------------------
+[2016-05-09 14:04:49 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:49 INFO]:   case:4 新股卖委托成功
+[2016-05-09 14:04:49 INFO]:   --------------------------------------------
+[2016-05-09 14:04:49 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:49 INFO]:      --------------------------------------------
+[2016-05-09 14:04:50 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:50 INFO]:      --------------------------------------------
+[2016-05-09 14:04:50 INFO]:     customerService.login:1
+[2016-05-09 14:04:50 INFO]:      --------------------------------------------
+[2016-05-09 14:04:52 INFO]:     tradeService.confirmTrans:4
+[2016-05-09 14:04:52 INFO]:      --------------------------------------------
+[2016-05-09 14:04:53 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:53 INFO]:   case:5 fundid资金账户为空
+[2016-05-09 14:04:53 INFO]:   --------------------------------------------
+[2016-05-09 14:04:53 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:53 INFO]:      --------------------------------------------
+[2016-05-09 14:04:54 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:54 INFO]:      --------------------------------------------
+[2016-05-09 14:04:54 INFO]:     customerService.login:1
+[2016-05-09 14:04:54 INFO]:      --------------------------------------------
+[2016-05-09 14:04:56 INFO]:     tradeService.confirmTrans:5
+[2016-05-09 14:04:56 INFO]:      --------------------------------------------
+[2016-05-09 14:04:57 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:04:57 INFO]:   case:6 fundid资金账户不足12位数字
+[2016-05-09 14:04:57 INFO]:   --------------------------------------------
+[2016-05-09 14:04:57 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:04:57 INFO]:      --------------------------------------------
+[2016-05-09 14:04:57 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:04:57 INFO]:      --------------------------------------------
+[2016-05-09 14:04:58 INFO]:     customerService.login:1
+[2016-05-09 14:04:58 INFO]:      --------------------------------------------
+[2016-05-09 14:05:01 INFO]:     tradeService.confirmTrans:6
+[2016-05-09 14:05:01 INFO]:      --------------------------------------------
+[2016-05-09 14:05:02 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:02 INFO]:   case:7 stkcode证券代码为空
+[2016-05-09 14:05:02 INFO]:   --------------------------------------------
+[2016-05-09 14:05:02 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:02 INFO]:      --------------------------------------------
+[2016-05-09 14:05:03 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:03 INFO]:      --------------------------------------------
+[2016-05-09 14:05:03 INFO]:     customerService.login:1
+[2016-05-09 14:05:03 INFO]:      --------------------------------------------
+[2016-05-09 14:05:06 INFO]:     tradeService.confirmTrans:7
+[2016-05-09 14:05:06 INFO]:      --------------------------------------------
+[2016-05-09 14:05:06 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:06 INFO]:   case:8 stkcode证券代码不存在
+[2016-05-09 14:05:06 INFO]:   --------------------------------------------
+[2016-05-09 14:05:06 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:06 INFO]:      --------------------------------------------
+[2016-05-09 14:05:07 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:07 INFO]:      --------------------------------------------
+[2016-05-09 14:05:08 INFO]:     customerService.login:1
+[2016-05-09 14:05:08 INFO]:      --------------------------------------------
+[2016-05-09 14:05:10 INFO]:     tradeService.confirmTrans:8
+[2016-05-09 14:05:10 INFO]:      --------------------------------------------
+[2016-05-09 14:05:11 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:11 INFO]:   case:9 price价格为空
+[2016-05-09 14:05:11 INFO]:   --------------------------------------------
+[2016-05-09 14:05:11 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:11 INFO]:      --------------------------------------------
+[2016-05-09 14:05:12 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:12 INFO]:      --------------------------------------------
+[2016-05-09 14:05:12 INFO]:     customerService.login:1
+[2016-05-09 14:05:12 INFO]:      --------------------------------------------
+[2016-05-09 14:05:14 INFO]:     tradeService.confirmTrans:9
+[2016-05-09 14:05:14 INFO]:      --------------------------------------------
+[2016-05-09 14:05:15 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:15 INFO]:   case:10 price价格为0
+[2016-05-09 14:05:15 INFO]:   --------------------------------------------
+[2016-05-09 14:05:15 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:15 INFO]:      --------------------------------------------
+[2016-05-09 14:05:15 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:15 INFO]:      --------------------------------------------
+[2016-05-09 14:05:16 INFO]:     customerService.login:1
+[2016-05-09 14:05:16 INFO]:      --------------------------------------------
+[2016-05-09 14:05:22 INFO]:     tradeService.confirmTrans:10
+[2016-05-09 14:05:22 INFO]:      --------------------------------------------
+[2016-05-09 14:05:22 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:22 INFO]:   case:11 price价格为非数字
+[2016-05-09 14:05:22 INFO]:   --------------------------------------------
+[2016-05-09 14:05:22 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:22 INFO]:      --------------------------------------------
+[2016-05-09 14:05:23 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:23 INFO]:      --------------------------------------------
+[2016-05-09 14:05:23 INFO]:     customerService.login:1
+[2016-05-09 14:05:23 INFO]:      --------------------------------------------
+[2016-05-09 14:05:25 INFO]:     tradeService.confirmTrans:11
+[2016-05-09 14:05:25 INFO]:      --------------------------------------------
+[2016-05-09 14:05:26 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:26 INFO]:   case:12 price价格为负数
+[2016-05-09 14:05:26 INFO]:   --------------------------------------------
+[2016-05-09 14:05:26 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:26 INFO]:      --------------------------------------------
+[2016-05-09 14:05:26 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:26 INFO]:      --------------------------------------------
+[2016-05-09 14:05:27 INFO]:     customerService.login:1
+[2016-05-09 14:05:27 INFO]:      --------------------------------------------
+[2016-05-09 14:05:29 INFO]:     tradeService.confirmTrans:12
+[2016-05-09 14:05:29 INFO]:      --------------------------------------------
+[2016-05-09 14:05:29 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:30 INFO]:   case:13 qty数量为空
+[2016-05-09 14:05:30 INFO]:   --------------------------------------------
+[2016-05-09 14:05:30 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:30 INFO]:      --------------------------------------------
+[2016-05-09 14:05:30 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:30 INFO]:      --------------------------------------------
+[2016-05-09 14:05:31 INFO]:     customerService.login:1
+[2016-05-09 14:05:31 INFO]:      --------------------------------------------
+[2016-05-09 14:05:33 INFO]:     tradeService.confirmTrans:13
+[2016-05-09 14:05:33 INFO]:      --------------------------------------------
+[2016-05-09 14:05:33 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:34 INFO]:   case:14 qty数量为0
+[2016-05-09 14:05:34 INFO]:   --------------------------------------------
+[2016-05-09 14:05:34 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:34 INFO]:      --------------------------------------------
+[2016-05-09 14:05:34 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:34 INFO]:      --------------------------------------------
+[2016-05-09 14:05:35 INFO]:     customerService.login:1
+[2016-05-09 14:05:35 INFO]:      --------------------------------------------
+[2016-05-09 14:05:36 INFO]:     tradeService.confirmTrans:14
+[2016-05-09 14:05:36 INFO]:      --------------------------------------------
+[2016-05-09 14:05:37 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:37 INFO]:   case:15 qty数量为非数字
+[2016-05-09 14:05:37 INFO]:   --------------------------------------------
+[2016-05-09 14:05:37 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:37 INFO]:      --------------------------------------------
+[2016-05-09 14:05:37 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:37 INFO]:      --------------------------------------------
+[2016-05-09 14:05:38 INFO]:     customerService.login:1
+[2016-05-09 14:05:38 INFO]:      --------------------------------------------
+[2016-05-09 14:05:40 INFO]:     tradeService.confirmTrans:15
+[2016-05-09 14:05:40 INFO]:      --------------------------------------------
+[2016-05-09 14:05:41 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:41 INFO]:   case:16 qty数量不是100的整数倍-买入
+[2016-05-09 14:05:41 INFO]:   --------------------------------------------
+[2016-05-09 14:05:41 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:41 INFO]:      --------------------------------------------
+[2016-05-09 14:05:41 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:41 INFO]:      --------------------------------------------
+[2016-05-09 14:05:42 INFO]:     customerService.login:1
+[2016-05-09 14:05:42 INFO]:      --------------------------------------------
+[2016-05-09 14:05:44 INFO]:     tradeService.confirmTrans:16
+[2016-05-09 14:05:44 INFO]:      --------------------------------------------
+[2016-05-09 14:05:44 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:44 INFO]: 000003. 资金查询(queryService.queryFund)
+[2016-05-09 14:05:44 INFO]: -------------------------------------------------
+[2016-05-09 14:05:45 INFO]:   case:1 资金查询成功
+[2016-05-09 14:05:45 INFO]:   --------------------------------------------
+[2016-05-09 14:05:45 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:45 INFO]:      --------------------------------------------
+[2016-05-09 14:05:45 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:45 INFO]:      --------------------------------------------
+[2016-05-09 14:05:46 INFO]:     customerService.login:1
+[2016-05-09 14:05:46 INFO]:      --------------------------------------------
+[2016-05-09 14:05:47 INFO]:     queryService.queryFund:1
+[2016-05-09 14:05:47 INFO]:      --------------------------------------------
+[2016-05-09 14:05:51 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:51 INFO]:   case:2 fundid资金账户为空
+[2016-05-09 14:05:51 INFO]:   --------------------------------------------
+[2016-05-09 14:05:51 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:51 INFO]:      --------------------------------------------
+[2016-05-09 14:05:51 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:51 INFO]:      --------------------------------------------
+[2016-05-09 14:05:52 INFO]:     customerService.login:1
+[2016-05-09 14:05:52 INFO]:      --------------------------------------------
+[2016-05-09 14:05:54 INFO]:     queryService.queryFund:2
+[2016-05-09 14:05:54 INFO]:      --------------------------------------------
+[2016-05-09 14:05:55 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:55 INFO]:   case:3 fundid资金账户超过13位
+[2016-05-09 14:05:55 INFO]:   --------------------------------------------
+[2016-05-09 14:05:55 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:55 INFO]:      --------------------------------------------
+[2016-05-09 14:05:55 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:55 INFO]:      --------------------------------------------
+[2016-05-09 14:05:56 INFO]:     customerService.login:1
+[2016-05-09 14:05:56 INFO]:      --------------------------------------------
+[2016-05-09 14:05:58 INFO]:     queryService.queryFund:3
+[2016-05-09 14:05:58 INFO]:      --------------------------------------------
+[2016-05-09 14:05:59 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:05:59 INFO]:   case:4 fundid资金账户为12位数字但在系统中不存在的
+[2016-05-09 14:05:59 INFO]:   --------------------------------------------
+[2016-05-09 14:05:59 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:05:59 INFO]:      --------------------------------------------
+[2016-05-09 14:05:59 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:05:59 INFO]:      --------------------------------------------
+[2016-05-09 14:06:00 INFO]:     customerService.login:1
+[2016-05-09 14:06:00 INFO]:      --------------------------------------------
+[2016-05-09 14:06:02 INFO]:     queryService.queryFund:4
+[2016-05-09 14:06:02 INFO]:      --------------------------------------------
+[2016-05-09 14:06:03 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:03 INFO]:   case:5 moneytype货币代码为空
+[2016-05-09 14:06:03 INFO]:   --------------------------------------------
+[2016-05-09 14:06:03 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:03 INFO]:      --------------------------------------------
+[2016-05-09 14:06:03 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:03 INFO]:      --------------------------------------------
+[2016-05-09 14:06:04 INFO]:     customerService.login:1
+[2016-05-09 14:06:04 INFO]:      --------------------------------------------
+[2016-05-09 14:06:06 INFO]:     queryService.queryFund:5
+[2016-05-09 14:06:06 INFO]:      --------------------------------------------
+[2016-05-09 14:06:07 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:07 INFO]:   case:6 moneytype货币代码为不存在的代码
+[2016-05-09 14:06:07 INFO]:   --------------------------------------------
+[2016-05-09 14:06:07 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:07 INFO]:      --------------------------------------------
+[2016-05-09 14:06:07 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:07 INFO]:      --------------------------------------------
+[2016-05-09 14:06:08 INFO]:     customerService.login:1
+[2016-05-09 14:06:08 INFO]:      --------------------------------------------
+[2016-05-09 14:06:11 INFO]:     queryService.queryFund:6
+[2016-05-09 14:06:11 INFO]:      --------------------------------------------
+[2016-05-09 14:06:12 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:12 INFO]: 000004. 股份查询(queryService.queryStock)
+[2016-05-09 14:06:12 INFO]: -------------------------------------------------
+[2016-05-09 14:06:13 INFO]:   case:1 持仓查询
+[2016-05-09 14:06:13 INFO]:   --------------------------------------------
+[2016-05-09 14:06:13 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:13 INFO]:      --------------------------------------------
+[2016-05-09 14:06:13 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:13 INFO]:      --------------------------------------------
+[2016-05-09 14:06:14 INFO]:     customerService.login:1
+[2016-05-09 14:06:14 INFO]:      --------------------------------------------
+[2016-05-09 14:06:18 INFO]:     queryService.queryStock:1
+[2016-05-09 14:06:18 INFO]:      --------------------------------------------
+[2016-05-09 14:06:20 INFO]:         [Pass]:data expect is 不为空,real is [{'stkavl': '1000', 'stksale': '0', 'mktval': '72900.000', 'stkname': '\xe4\xb8\xad\xe7\x94\xb5\xe6\x8e\xa7\xe8\x82\xa1', 'secuid': 'IGB009', 'price': '72.900', 'income': '3850.000000', 'profitrate': '0.055757', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '69.050000', 'stkbal': '1000', 'stkqty': '1000', 'costprice': '69.050000', 'poststr': '', 'stkcode': '00002', 'stkbuy': '0', 'market': '4'}, {'stkavl': '5000', 'stksale': '0', 'mktval': '72700.000', 'stkname': '\xe9\xa6\x99\xe6\xb8\xaf\xe4\xb8\xad\xe5\x8d\x8e\xe7\x85\xa4\xe6\xb0\x94', 'secuid': 'IGB009', 'price': '14.540', 'income': '1900.000000', 'profitrate': '0.026837', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '14.160000', 'stkbal': '5000', 'stkqty': '5000', 'costprice': '14.160000', 'poststr': '', 'stkcode': '00003', 'stkbuy': '0', 'market': '4'}, {'stkavl': '100000', 'stksale': '0', 'mktval': '1166000.000', 'stkname': '\xe7\x9b\x9b\xe4\xba\xac\xe9\x93\xb6\xe8\xa1\x8c', 'secuid': 'IGB009', 'price': '11.660', 'income': '132360.000000', 'profitrate': '0.128053', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '10.336400', 'stkbal': '100000', 'stkqty': '100000', 'costprice': '10.336400', 'poststr': '', 'stkcode': '02066', 'stkbuy': '0', 'market': '4'}, {'stkavl': '12000', 'stksale': '0', 'mktval': '19200.000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', 'secuid': 'IGB009', 'price': '1.600', 'income': '2880.000000', 'profitrate': '0.176471', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '1.360000', 'stkbal': '12000', 'stkqty': '12000', 'costprice': '1.360000', 'poststr': '', 'stkcode': '03330', 'stkbuy': '0', 'market': '4'}, {'stkavl': '20000', 'stksale': '4000', 'mktval': '42480.000', 'stkname': '\xe4\xba\x9a\xe5\x8d\x9a\xe7\xa7\x91\xe6\x8a\x80\xe6\x8e\xa7\xe8\x82\xa1', 'secuid': 'IGB009', 'price': '1.770', 'income': '-1080.000000', 'profitrate': '-0.024793', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '1.815000', 'stkbal': '24000', 'stkqty': '24000', 'costprice': '1.815000', 'poststr': '', 'stkcode': '08279', 'stkbuy': '4000', 'market': '4'}, {'stkavl': '11000', 'stksale': '0', 'mktval': '0', 'stkname': '\xe4\xb8\xb4\xe6\x97\xb6\xe4\xbb\xa3\xe7\xa0\x8108387', 'secuid': 'IGB009', 'price': None, 'income': '-4125.000000', 'profitrate': '-1.000000', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '0.375000', 'stkbal': '11000', 'stkqty': '11000', 'costprice': '0.375000', 'poststr': '', 'stkcode': '08387', 'stkbuy': '0', 'market': '4'}]
+[2016-05-09 14:06:20 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:20 INFO]:   case:2 持仓查询stkcode为空
+[2016-05-09 14:06:20 INFO]:   --------------------------------------------
+[2016-05-09 14:06:20 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:20 INFO]:      --------------------------------------------
+[2016-05-09 14:06:21 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:21 INFO]:      --------------------------------------------
+[2016-05-09 14:06:21 INFO]:     customerService.login:1
+[2016-05-09 14:06:21 INFO]:      --------------------------------------------
+[2016-05-09 14:06:25 INFO]:     queryService.queryStock:2
+[2016-05-09 14:06:25 INFO]:      --------------------------------------------
+[2016-05-09 14:06:28 INFO]:         [Pass]:data expect is 不为空,real is [{'stkavl': '1000', 'stksale': '0', 'mktval': '72900.000', 'stkname': '\xe4\xb8\xad\xe7\x94\xb5\xe6\x8e\xa7\xe8\x82\xa1', 'secuid': 'IGB009', 'price': '72.900', 'income': '3850.000000', 'profitrate': '0.055757', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '69.050000', 'stkbal': '1000', 'stkqty': '1000', 'costprice': '69.050000', 'poststr': '', 'stkcode': '00002', 'stkbuy': '0', 'market': '4'}, {'stkavl': '5000', 'stksale': '0', 'mktval': '72600.000', 'stkname': '\xe9\xa6\x99\xe6\xb8\xaf\xe4\xb8\xad\xe5\x8d\x8e\xe7\x85\xa4\xe6\xb0\x94', 'secuid': 'IGB009', 'price': '14.520', 'income': '1800.000000', 'profitrate': '0.025424', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '14.160000', 'stkbal': '5000', 'stkqty': '5000', 'costprice': '14.160000', 'poststr': '', 'stkcode': '00003', 'stkbuy': '0', 'market': '4'}, {'stkavl': '100000', 'stksale': '0', 'mktval': '1166000.000', 'stkname': '\xe7\x9b\x9b\xe4\xba\xac\xe9\x93\xb6\xe8\xa1\x8c', 'secuid': 'IGB009', 'price': '11.660', 'income': '132360.000000', 'profitrate': '0.128053', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '10.336400', 'stkbal': '100000', 'stkqty': '100000', 'costprice': '10.336400', 'poststr': '', 'stkcode': '02066', 'stkbuy': '0', 'market': '4'}, {'stkavl': '12000', 'stksale': '0', 'mktval': '19200.000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', 'secuid': 'IGB009', 'price': '1.600', 'income': '2880.000000', 'profitrate': '0.176471', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '1.360000', 'stkbal': '12000', 'stkqty': '12000', 'costprice': '1.360000', 'poststr': '', 'stkcode': '03330', 'stkbuy': '0', 'market': '4'}, {'stkavl': '20000', 'stksale': '4000', 'mktval': '42480.000', 'stkname': '\xe4\xba\x9a\xe5\x8d\x9a\xe7\xa7\x91\xe6\x8a\x80\xe6\x8e\xa7\xe8\x82\xa1', 'secuid': 'IGB009', 'price': '1.770', 'income': '-1080.000000', 'profitrate': '-0.024793', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '1.815000', 'stkbal': '24000', 'stkqty': '24000', 'costprice': '1.815000', 'poststr': '', 'stkcode': '08279', 'stkbuy': '4000', 'market': '4'}, {'stkavl': '11000', 'stksale': '0', 'mktval': '0', 'stkname': '\xe4\xb8\xb4\xe6\x97\xb6\xe4\xbb\xa3\xe7\xa0\x8108387', 'secuid': 'IGB009', 'price': None, 'income': '-4125.000000', 'profitrate': '-1.000000', '~market': '\xe6\xb8\xaf\xe8\x82\xa1', 'profitprice': '0.375000', 'stkbal': '11000', 'stkqty': '11000', 'costprice': '0.375000', 'poststr': '', 'stkcode': '08387', 'stkbuy': '0', 'market': '4'}]
+[2016-05-09 14:06:28 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:28 INFO]:   case:3 fundid资金账户为空
+[2016-05-09 14:06:28 INFO]:   --------------------------------------------
+[2016-05-09 14:06:28 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:28 INFO]:      --------------------------------------------
+[2016-05-09 14:06:29 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:29 INFO]:      --------------------------------------------
+[2016-05-09 14:06:29 INFO]:     customerService.login:1
+[2016-05-09 14:06:29 INFO]:      --------------------------------------------
+[2016-05-09 14:06:32 INFO]:     queryService.queryStock:3
+[2016-05-09 14:06:32 INFO]:      --------------------------------------------
+[2016-05-09 14:06:33 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:33 INFO]:   case:4 fundid资金账户与userid不匹配
+[2016-05-09 14:06:33 INFO]:   --------------------------------------------
+[2016-05-09 14:06:33 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:33 INFO]:      --------------------------------------------
+[2016-05-09 14:06:34 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:34 INFO]:      --------------------------------------------
+[2016-05-09 14:06:34 INFO]:     customerService.login:1
+[2016-05-09 14:06:34 INFO]:      --------------------------------------------
+[2016-05-09 14:06:36 INFO]:     queryService.queryStock:4
+[2016-05-09 14:06:36 INFO]:      --------------------------------------------
+[2016-05-09 14:06:37 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:37 INFO]: 000005. 委托查询(queryService.queryOrders)
+[2016-05-09 14:06:37 INFO]: -------------------------------------------------
+[2016-05-09 14:06:37 INFO]:   case:1 查询当天委托
+[2016-05-09 14:06:37 INFO]:   --------------------------------------------
+[2016-05-09 14:06:37 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:37 INFO]:      --------------------------------------------
+[2016-05-09 14:06:38 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:38 INFO]:      --------------------------------------------
+[2016-05-09 14:06:38 INFO]:     customerService.login:1
+[2016-05-09 14:06:38 INFO]:      --------------------------------------------
+[2016-05-09 14:06:40 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:06:40 INFO]:      --------------------------------------------
+[2016-05-09 14:06:41 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:41 INFO]:   case:2 fundid资金账户为空
+[2016-05-09 14:06:41 INFO]:   --------------------------------------------
+[2016-05-09 14:06:41 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:41 INFO]:      --------------------------------------------
+[2016-05-09 14:06:42 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:42 INFO]:      --------------------------------------------
+[2016-05-09 14:06:42 INFO]:     customerService.login:1
+[2016-05-09 14:06:42 INFO]:      --------------------------------------------
+[2016-05-09 14:06:44 INFO]:     queryService.queryOrders:2
+[2016-05-09 14:06:44 INFO]:      --------------------------------------------
+[2016-05-09 14:06:45 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:45 INFO]:   case:3 查询历史委托
+[2016-05-09 14:06:45 INFO]:   --------------------------------------------
+[2016-05-09 14:06:45 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:45 INFO]:      --------------------------------------------
+[2016-05-09 14:06:45 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:45 INFO]:      --------------------------------------------
+[2016-05-09 14:06:46 INFO]:     customerService.login:1
+[2016-05-09 14:06:46 INFO]:      --------------------------------------------
+[2016-05-09 14:06:48 INFO]:     queryService.queryOrders:3
+[2016-05-09 14:06:48 INFO]:      --------------------------------------------
+[2016-05-09 14:06:52 INFO]:         [Pass]:data expect is 不为空,real is [{'secuid': 'IGB009', 'orderqty': '100000', 'orderprice': '0.222', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000031', 'stkcode': '00080', 'market': '4', 'opertime': '10:08:50', 'matchqty': '100000', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '0', 'stkname': '\xe4\xb8\xad\xe5\x9b\xbd\xe6\x96\xb0\xe7\xbb\x8f\xe6\xb5\x8e\xe6\x8a\x95\xe8\xb5\x84', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '100000', 'orderprice': '0.195', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160401000042', 'stkcode': '00080', 'market': '4', 'opertime': '13:57:43', 'matchqty': '0', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '100000', 'stkname': '\xe4\xb8\xad\xe5\x9b\xbd\xe6\x96\xb0\xe7\xbb\x8f\xe6\xb5\x8e\xe6\x8a\x95\xe8\xb5\x84', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '100000', 'orderprice': '0.2', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000043', 'stkcode': '00080', 'market': '4', 'opertime': '13:57:55', 'matchqty': '100000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe4\xb8\xad\xe5\x9b\xbd\xe6\x96\xb0\xe7\xbb\x8f\xe6\xb5\x8e\xe6\x8a\x95\xe8\xb5\x84', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '500', 'orderprice': '101.9', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000044', 'stkcode': '00001', 'market': '4', 'opertime': '14:03:30', 'matchqty': '500', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '0', 'stkname': '\xe9\x95\xbf\xe5\x92\x8c', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '500', 'orderprice': '100.9', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000045', 'stkcode': '00001', 'market': '4', 'opertime': '14:05:18', 'matchqty': '500', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe9\x95\xbf\xe5\x92\x8c', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '101', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x92\xa4\xe9\x94\x80', 'ordersno': '160401000046', 'stkcode': '00001', 'market': '4', 'opertime': '14:05:56', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe9\x95\xbf\xe5\x92\x8c', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '101.9', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000047', 'stkcode': '00001', 'market': '4', 'opertime': '14:06:26', 'matchqty': '2000', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '0', 'stkname': '\xe9\x95\xbf\xe5\x92\x8c', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '500', 'orderprice': '101.1', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000048', 'stkcode': '00001', 'market': '4', 'opertime': '14:06:59', 'matchqty': '500', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe9\x95\xbf\xe5\x92\x8c', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '6000', 'orderprice': '46.3', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000049', 'stkcode': '00012', 'market': '4', 'opertime': '14:17:44', 'matchqty': '6000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe6\x81\x92\xe5\x9f\xba\xe5\x9c\xb0\xe4\xba\xa7', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '15000', 'orderprice': '1.02', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000053', 'stkcode': '00114', 'market': '4', 'opertime': '14:19:55', 'matchqty': '15000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': 'HERALD HOLD', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '20000', 'orderprice': '0.061', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000055', 'stkcode': '00070', 'market': '4', 'opertime': '14:20:27', 'matchqty': '20000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe6\xb5\xb7\xe7\x8e\x8b\xe9\x9b\x86\xe5\x9b\xa2', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '4000', 'orderprice': '0.385', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000056', 'stkcode': '00360', 'market': '4', 'opertime': '14:20:47', 'matchqty': '4000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe6\x96\xb0\xe7\x84\xa6\xe7\x82\xb9', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '1500', 'orderprice': '101.1', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000057', 'stkcode': '00001', 'market': '4', 'opertime': '14:21:13', 'matchqty': '1500', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe9\x95\xbf\xe5\x92\x8c', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '6000', 'orderprice': '1.5', 'poststr': '2016/04/01', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160401000058', 'stkcode': '03330', 'market': '4', 'opertime': '14:21:36', 'matchqty': '6000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.5', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160405000025', 'stkcode': '03330', 'market': '4', 'opertime': '10:22:51', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '0', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160405000028', 'stkcode': '03330', 'market': '4', 'opertime': '10:24:51', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.53', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160405000031', 'stkcode': '03330', 'market': '4', 'opertime': '10:29:25', 'matchqty': '2000', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '0', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '4000', 'orderprice': '0', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160405000033', 'stkcode': '03330', 'market': '4', 'opertime': '10:31:06', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '4000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.53', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160405000037', 'stkcode': '03330', 'market': '4', 'opertime': '10:48:58', 'matchqty': '2000', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '0', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.49', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160405000057', 'stkcode': '03330', 'market': '4', 'opertime': '15:47:08', 'matchqty': '2000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.49', 'poststr': '2016/04/05', '~orderstatus': '\xe5\xb7\xb2\xe6\x88\x90\xe4\xba\xa4', 'ordersno': '160405000058', 'stkcode': '03330', 'market': '4', 'opertime': '15:47:31', 'matchqty': '2000', '~bsflag': '\xe5\x8d\x96\xe5\x87\xba', 'cancelqty': '0', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': ''}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.33', 'poststr': '2016/04/07', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160407000001', 'stkcode': '03330', 'market': '4', 'opertime': '08:58:53', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.33', 'poststr': '2016/04/07', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160407000003', 'stkcode': '03330', 'market': '4', 'opertime': '09:01:43', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.33', 'poststr': '2016/04/07', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160407000005', 'stkcode': '03330', 'market': '4', 'opertime': '09:01:51', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x84\xe9\x87\x91', '~cancelflag': '\xe5\xb7\xb2\xe6\x92\xa4\xe5\x8d\x95'}, {'secuid': 'IGB009', 'orderqty': '2000', 'orderprice': '1.33', 'poststr': '2016/04/07', '~orderstatus': '\xe5\xb7\xb2\xe6\x8b\x92\xe7\xbb\x9d', 'ordersno': '160407000007', 'stkcode': '03330', 'market': '4', 'opertime': '09:01:59', 'matchqty': '0', '~bsflag': '\xe4\xb9\xb0\xe5\x85\xa5', 'cancelqty': '2000', 'stkname': '\xe7\x81\xb5\xe5\xae\x9d\xe9\xbb\x8
+[2016-05-09 14:06:52 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:52 INFO]:   case:4 查询历史委托-开始日期格式为空
+[2016-05-09 14:06:52 INFO]:   --------------------------------------------
+[2016-05-09 14:06:52 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:52 INFO]:      --------------------------------------------
+[2016-05-09 14:06:52 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:52 INFO]:      --------------------------------------------
+[2016-05-09 14:06:53 INFO]:     customerService.login:1
+[2016-05-09 14:06:53 INFO]:      --------------------------------------------
+[2016-05-09 14:06:55 INFO]:     queryService.queryOrders:4
+[2016-05-09 14:06:55 INFO]:      --------------------------------------------
+[2016-05-09 14:06:56 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:06:56 INFO]:   case:5 查询历史委托-开始日期格式错误
+[2016-05-09 14:06:56 INFO]:   --------------------------------------------
+[2016-05-09 14:06:56 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:06:56 INFO]:      --------------------------------------------
+[2016-05-09 14:06:56 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:06:56 INFO]:      --------------------------------------------
+[2016-05-09 14:06:57 INFO]:     customerService.login:1
+[2016-05-09 14:06:57 INFO]:      --------------------------------------------
+[2016-05-09 14:06:59 INFO]:     queryService.queryOrders:5
+[2016-05-09 14:06:59 INFO]:      --------------------------------------------
+[2016-05-09 14:06:59 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:00 INFO]:   case:6 查询历史委托-结束日期格式为空
+[2016-05-09 14:07:00 INFO]:   --------------------------------------------
+[2016-05-09 14:07:00 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:00 INFO]:      --------------------------------------------
+[2016-05-09 14:07:00 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:00 INFO]:      --------------------------------------------
+[2016-05-09 14:07:01 INFO]:     customerService.login:1
+[2016-05-09 14:07:01 INFO]:      --------------------------------------------
+[2016-05-09 14:07:02 INFO]:     queryService.queryOrders:6
+[2016-05-09 14:07:02 INFO]:      --------------------------------------------
+[2016-05-09 14:07:03 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:03 INFO]:   case:7 查询历史委托-结束日期格式错误
+[2016-05-09 14:07:03 INFO]:   --------------------------------------------
+[2016-05-09 14:07:03 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:03 INFO]:      --------------------------------------------
+[2016-05-09 14:07:03 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:03 INFO]:      --------------------------------------------
+[2016-05-09 14:07:04 INFO]:     customerService.login:1
+[2016-05-09 14:07:04 INFO]:      --------------------------------------------
+[2016-05-09 14:07:06 INFO]:     queryService.queryOrders:7
+[2016-05-09 14:07:06 INFO]:      --------------------------------------------
+[2016-05-09 14:07:06 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:06 INFO]: 000009. 股票匹配查询(模糊查询)(queryService.queryMatch)
+[2016-05-09 14:07:06 INFO]: -------------------------------------------------
+[2016-05-09 14:07:07 INFO]:   case:1 老股
+[2016-05-09 14:07:07 INFO]:   --------------------------------------------
+[2016-05-09 14:07:07 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:07 INFO]:      --------------------------------------------
+[2016-05-09 14:07:07 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:07 INFO]:      --------------------------------------------
+[2016-05-09 14:07:08 INFO]:     customerService.login:1
+[2016-05-09 14:07:08 INFO]:      --------------------------------------------
+[2016-05-09 14:07:10 INFO]:     queryService.queryMatch:1
+[2016-05-09 14:07:10 INFO]:      --------------------------------------------
+[2016-05-09 14:07:13 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:13 INFO]:   case:2 新股
+[2016-05-09 14:07:13 INFO]:   --------------------------------------------
+[2016-05-09 14:07:13 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:13 INFO]:      --------------------------------------------
+[2016-05-09 14:07:13 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:13 INFO]:      --------------------------------------------
+[2016-05-09 14:07:14 INFO]:     customerService.login:1
+[2016-05-09 14:07:14 INFO]:      --------------------------------------------
+[2016-05-09 14:07:15 INFO]:     queryService.queryMatch:2
+[2016-05-09 14:07:15 INFO]:      --------------------------------------------
+[2016-05-09 14:07:16 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:16 INFO]:   case:3 匹配代码为证券代码部分
+[2016-05-09 14:07:16 INFO]:   --------------------------------------------
+[2016-05-09 14:07:16 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:16 INFO]:      --------------------------------------------
+[2016-05-09 14:07:17 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:17 INFO]:      --------------------------------------------
+[2016-05-09 14:07:17 INFO]:     customerService.login:1
+[2016-05-09 14:07:17 INFO]:      --------------------------------------------
+[2016-05-09 14:07:19 INFO]:     queryService.queryMatch:3
+[2016-05-09 14:07:19 INFO]:      --------------------------------------------
+[2016-05-09 14:07:20 INFO]:         [Pass]:data expect is 不为空,real is [{'pycode': 'XGZHMQ', 'currency': '', 'classid': '0', 'code': '00003', 'name': '\xe9\xa6\x99\xe6\xb8\xaf\xe4\xb8\xad\xe5\x8d\x8e\xe7\x85\xa4\xe6\xb0\x94', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'WLKGJT', 'currency': '', 'classid': '0', 'code': '00030', 'name': '\xe4\xb8\x87\xe9\x9a\x86\xe6\x8e\xa7\xe8\x82\xa1\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'HTKG', 'currency': '', 'classid': '0', 'code': '00031', 'name': '\xe8\x88\xaa\xe5\xa4\xa9\xe6\x8e\xa7\xe8\x82\xa1', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'GTKG', 'currency': '', 'classid': '0', 'code': '00032', 'name': '\xe6\xb8\xaf\xe9\x80\x9a\xe6\x8e\xa7\xe8\x82\xa1', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'HXHXJRJT', 'currency': '', 'classid': '0', 'code': '00033', 'name': '\xe5\x92\x8c\xe5\x8d\x8f\xe6\xb5\xb7\xe5\xb3\xa1\xe9\x87\x91\xe8\x9e\x8d\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'JLJY', 'currency': '', 'classid': '0', 'code': '00034', 'name': '\xe4\xb9\x9d\xe9\xbe\x99\xe5\xbb\xba\xe4\xb8\x9a', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'YDFZ', 'currency': '', 'classid': '0', 'code': '00035', 'name': '\xe8\xbf\x9c\xe4\xb8\x9c\xe5\x8f\x91\xe5\xb1\x95', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'YDKGGJ', 'currency': '', 'classid': '0', 'code': '00036', 'name': '\xe8\xbf\x9c\xe4\xb8\x9c\xe6\x8e\xa7\xe8\x82\xa1\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '3000'}, {'pycode': 'YDJDSY', 'currency': '', 'classid': '0', 'code': '00037', 'name': '\xe8\xbf\x9c\xe4\xb8\x9c\xe9\x85\x92\xe5\xba\x97\xe5\xae\x9e\xe4\xb8\x9a', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'DYTLJGF', 'currency': '', 'classid': '0', 'code': '00038', 'name': '\xe7\xac\xac\xe4\xb8\x80\xe6\x8b\x96\xe6\x8b\x89\xe6\x9c\xba\xe8\x82\xa1\xe4\xbb\xbd', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'ZGBDH', 'currency': '', 'classid': '0', 'code': '00039', 'name': '\xe4\xb8\xad\xe5\x9b\xbd\xe5\x8c\x97\xe5\xa4\xa7\xe8\x8d\x92', 'exchid': '4', 'precision': '', 'lotsize': '8000'}, {'pycode': 'KMJC', 'currency': '', 'classid': '0', 'code': '00300', 'name': '\xe6\x98\x86\xe6\x98\x8e\xe6\x9c\xba\xe5\xba\x8a', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'VTECHHOLDI', 'currency': '', 'classid': '0', 'code': '00303', 'name': 'VTECH HOLDINGS', 'exchid': '4', 'precision': '', 'lotsize': '100'}, {'pycode': 'WLQC', 'currency': '', 'classid': '0', 'code': '00305', 'name': '\xe4\xba\x94\xe8\x8f\xb1\xe6\xb1\xbd\xe8\xbd\xa6', 'exchid': '4', 'precision': '', 'lotsize': '10000'}, {'pycode': 'GZBSJT', 'currency': '', 'classid': '0', 'code': '00306', 'name': '\xe5\x86\xa0\xe5\xbf\xa0\xe5\xb7\xb4\xe5\xa3\xab\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'YPNYFZ', 'currency': '', 'classid': '0', 'code': '00307', 'name': '\xe4\xbc\x98\xe6\xb4\xbe\xe8\x83\xbd\xe6\xba\x90\xe5\x8f\x91\xe5\xb1\x95', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'XGZL', 'currency': '', 'classid': '0', 'code': '00308', 'name': '\xe9\xa6\x99\xe6\xb8\xaf\xe4\xb8\xad\xe6\x97\x85', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'XHTXPM', 'currency': '', 'classid': '0', 'code': '00309', 'name': '\xe6\x96\xb0\xe5\x8d\x8e\xe9\x80\x9a\xe8\xae\xaf\xe9\xa2\x91\xe5\xaa\x92', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'JJTZGJ', 'currency': '', 'classid': '0', 'code': '00310', 'name': '\xe5\x98\x89\xe8\xbf\x9b\xe6\x8a\x95\xe8\xb5\x84\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '15000'}, {'pycode': 'LTKG', 'currency': '', 'classid': '0', 'code': '00311', 'name': '\xe8\x81\x94\xe6\xb3\xb0\xe6\x8e\xa7\xe8\x82\xa1', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'SBBH', 'currency': '', 'classid': '0', 'code': '00312', 'name': '\xe5\xb2\x81\xe5\xae\x9d\xe7\x99\xbe\xe8\xb4\xa7', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'YTZG', 'currency': '', 'classid': '0', 'code': '00313', 'name': '\xe8\xa3\x95\xe7\x94\xb0\xe4\xb8\xad\xe5\x9b\xbd', 'exchid': '4', 'precision': '', 'lotsize': '50000'}, {'pycode': 'SMTDX', 'currency': '', 'classid': '0', 'code': '00315', 'name': '\xe6\x95\xb0\xe7\xa0\x81\xe9\x80\x9a\xe7\x94\xb5\xe8\xae\xaf', 'exchid': '4', 'precision': '', 'lotsize': '500'}, {'pycode': 'DFHWGJ', 'currency': '', 'classid': '0', 'code': '00316', 'name': '\xe4\xb8\x9c\xe6\x96\xb9\xe6\xb5\xb7\xe5\xa4\x96\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '500'}, {'pycode': 'ZCFW', 'currency': '', 'classid': '0', 'code': '00317', 'name': '\xe4\xb8\xad\xe8\x88\xb9\xe9\x98\xb2\xe5\x8a\xa1', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'HHSY', 'currency': '', 'classid': '0', 'code': '00318', 'name': '\xe9\xbb\x84\xe6\xb2\xb3\xe5\xae\x9e\xe4\xb8\x9a', 'exchid': '4', 'precision': '', 'lotsize': '5000'}, {'pycode': 'QMDGJ', 'currency': '', 'classid': '0', 'code': '00319', 'name': '\xe5\x8b\xa4\xe7\xbe\x8e\xe8\xbe\xbe\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'JBT', 'currency': '', 'classid': '0', 'code': '00320', 'name': '\xe9\x87\x91\xe5\xae\x9d\xe9\x80\x9a', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'DYJJT', 'currency': '', 'classid': '0', 'code': '00321', 'name': '\xe5\xbe\xb7\xe6\xb0\xb8\xe4\xbd\xb3\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'KSFKG', 'currency': '', 'classid': '0', 'code': '00322', 'name': '\xe5\xba\xb7\xe5\xb8\x88\xe5\x82\x85\xe6\x8e\xa7\xe8\x82\xa1', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'MASGTGF', 'currency': '', 'classid': '0', 'code': '00323', 'name': '\xe9\xa9\xac\xe9\x9e\x8d\xe5\xb1\xb1\xe9\x92\xa2\xe9\x93\x81\xe8\x82\xa1\xe4\xbb\xbd', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'ZGXJT', 'currency': '', 'classid': '0', 'code': '00326', 'name': '\xe4\xb8\xad\xe5\x9b\xbd\xe6\x98\x9f\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '10000'}, {'pycode': 'BFHQ', 'currency': '', 'classid': '0', 'code': '00327', 'name': '\xe7\x99\xbe\xe5\xaf\x8c\xe7\x8e\xaf\xe7\x90\x83', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'ALCOHOLDIN', 'currency': '', 'classid': '0', 'code': '00328', 'name': 'ALCO HOLDINGS', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'SLGJ', 'currency': '', 'classid': '0', 'code': '00329', 'name': '\xe4\xb8\x89\xe9\xbe\x99\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '4000'}, {'pycode': 'SJHQ', 'currency': '', 'classid': '0', 'code': '00330', 'name': '\xe6\x80\x9d\xe6\x8d\xb7\xe7\x8e\xaf\xe7\x90\x83', 'exchid': '4', 'precision': '', 'lotsize': '100'}, {'pycode': 'FSJD', 'currency': '', 'classid': '0', 'code': '00331', 'name': '\xe4\xb8\xb0\xe7\x9b\x9b\xe6\x9c\xba\xe7\x94\xb5', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'YHRQ', 'currency': '', 'classid': '0', 'code': '00332', 'name': '\xe5\x85\x83\xe4\xba\xa8\xe7\x87\x83\xe6\xb0\x94', 'exchid': '4', 'precision': '', 'lotsize': '4000'}, {'pycode': 'DLSGJ', 'currency': '', 'classid': '0', 'code': '00333', 'name': '\xe9\xbb\x9b\xe4\xb8\xbd\xe6\x96\xaf\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'TCLXSKJ', 'currency': '', 'classid': '0', 'code': '00334', 'name': 'TCL\xe6\x98\xbe\xe7\xa4\xba\xe7\xa7\x91\xe6\x8a\x80', 'exchid': '4', 'precision': '', 'lotsize': '8000'}, {'pycode': 'MJJT', 'currency': '', 'classid': '0', 'code': '00335', 'name': '\xe7\xbe\x8e\xe5\xbb\xba\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'HBGJ', 'currency': '', 'classid': '0', 'code': '00336', 'name': '\xe5\x8d\x8e\xe5\xae\x9d\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'LDXG', 'currency': '', 'classid': '0', 'code': '00337', 'name': '\xe7\xbb\xbf\xe5\x9c\xb0\xe9\xa6\x99\xe6\xb8\xaf', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'SHSYHGGF', 'currency': '', 'classid': '0', 'code': '00338', 'name': '\xe4\xb8\x8a\xe6\xb5\xb7\xe7\x9f\xb3\xe6\xb2\xb9\xe5\x8c\x96\xe5\xb7\xa5\xe8\x82\xa1\xe4\xbb\xbd', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'ALSTZ', 'currency': '', 'classid': '0', 'code': '00339', 'name': '\xe5\xae\x89\xe5\x88\xa9\xe6\x97\xb6\xe6\x8a\x95\xe8\xb5\x84', 'exchid': '4', 'precision': '', 'lotsize': '10000'}, {'pycode': 'ZGKY', 'currency': '', 'classid': '0', 'code': '00340', 'name': '\xe4\xb8\xad\xe5\x9b\xbd\xe7\x9f\xbf\xe4\xb8\x9a', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'DJLJT', 'currency': '', 'classid': '0', 'code': '00341', 'name': '\xe5\xa4\xa7\xe5\xae\xb6\xe4\xb9\x90\xe9\x9b\x86\xe5\x9b\xa2', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'XHNY', 'currency': '', 'classid': '0', 'code': '00342', 'name': '\xe6\x96\xb0\xe6\xb5\xb7\xe8\x83\xbd\xe6\xba\x90', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'WHCX', 'currency': '', 'classid': '0', 'code': '00343', 'name': '\xe6\x96\x87\xe5\x8c\x96\xe4\xbc\xa0\xe4\xbf\xa1', 'exchid': '4', 'precision': '', 'lotsize': '5000'}, {'pycode': 'VITASOYINT', 'currency': '', 'classid': '0', 'code': '00345', 'name': "VITASOY INT'L", 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'YCSYGJ', 'currency': '', 'classid': '0', 'code': '00346', 'name': '\xe5\xbb\xb6\xe9\x95\xbf\xe7\x9f\xb3\xe6\xb2\xb9\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '10000'}, {'pycode': 'AGGF', 'currency': '', 'classid': '0', 'code': '00347', 'name': '\xe9\x9e\x8d\xe9\x92\xa2\xe8\x82\xa1\xe4\xbb\xbd', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'HEZNJK', 'currency': '', 'classid': '0', 'code': '00348', 'name': '\xe6\xb5\xb7\xe5\xb0\x94\xe6\x99\xba\xe8\x83
+[2016-05-09 14:07:20 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:20 INFO]:   case:4 匹配代码为股票拼音简称部分
+[2016-05-09 14:07:20 INFO]:   --------------------------------------------
+[2016-05-09 14:07:20 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:20 INFO]:      --------------------------------------------
+[2016-05-09 14:07:20 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:20 INFO]:      --------------------------------------------
+[2016-05-09 14:07:21 INFO]:     customerService.login:1
+[2016-05-09 14:07:21 INFO]:      --------------------------------------------
+[2016-05-09 14:07:22 INFO]:     queryService.queryMatch:4
+[2016-05-09 14:07:22 INFO]:      --------------------------------------------
+[2016-05-09 14:07:23 INFO]:         [Pass]:data expect is 不为空,real is [{'pycode': 'QMDGJ', 'currency': '', 'classid': '0', 'code': '00319', 'name': '\xe5\x8b\xa4\xe7\xbe\x8e\xe8\xbe\xbe\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'SMDGJ', 'currency': '', 'classid': '0', 'code': '00482', 'name': '\xe5\x9c\xa3\xe9\xa9\xac\xe4\xb8\x81\xe5\x9b\xbd\xe9\x99\x85', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'GMDQ', 'currency': '', 'classid': '0', 'code': '00493', 'name': '\xe5\x9b\xbd\xe7\xbe\x8e\xe7\x94\xb5\xe5\x99\xa8', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'NJXMDZGF', 'currency': '', 'classid': '0', 'code': '00553', 'name': '\xe5\x8d\x97\xe4\xba\xac\xe7\x86\x8a\xe7\x8c\xab\xe7\x94\xb5\xe5\xad\x90\xe8\x82\xa1\xe4\xbb\xbd', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'KMDKTYN', 'currency': '', 'classid': '0', 'code': '00712', 'name': '\xe5\x8d\xa1\xe5\xa7\x86\xe4\xb8\xb9\xe5\x85\x8b\xe5\xa4\xaa\xe9\x98\xb3\xe8\x83\xbd', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'MDSKG-S', 'currency': '', 'classid': '0', 'code': '01021', 'name': '\xe9\xba\xa6\xe8\xbe\xbe\xe6\x96\xaf\xe6\x8e\xa7\xe8\x82\xa1-S', 'exchid': '4', 'precision': '', 'lotsize': '1000'}, {'pycode': 'MDQC', 'currency': '', 'classid': '0', 'code': '01268', 'name': '\xe7\xbe\x8e\xe4\xb8\x9c\xe6\xb1\xbd\xe8\xbd\xa6', 'exchid': '4', 'precision': '', 'lotsize': '2000'}, {'pycode': 'MDSJY', 'currency': '', 'classid': '0', 'code': '08057', 'name': '\xe9\xba\xa6\xe8\xbf\xaa\xe6\xa3\xae\xe9\x85\x92\xe4\xb8\x9a', 'exchid': '4', 'precision': '', 'lotsize': '4000'}, {'pycode': 'MDSJ', 'currency': '', 'classid': '0', 'code': '08307', 'name': '\xe5\xaf\x86\xe8\xbf\xaa\xe6\x96\xaf\xe8\x82\x8c', 'exchid': '4', 'precision': '', 'lotsize': '4000'}]
+[2016-05-09 14:07:23 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:23 INFO]:   case:5 pattern匹配代码为A股上证代码
+[2016-05-09 14:07:23 INFO]:   --------------------------------------------
+[2016-05-09 14:07:23 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:23 INFO]:      --------------------------------------------
+[2016-05-09 14:07:24 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:24 INFO]:      --------------------------------------------
+[2016-05-09 14:07:24 INFO]:     customerService.login:1
+[2016-05-09 14:07:24 INFO]:      --------------------------------------------
+[2016-05-09 14:07:26 INFO]:     queryService.queryMatch:5
+[2016-05-09 14:07:26 INFO]:      --------------------------------------------
+[2016-05-09 14:07:27 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:27 INFO]:   case:6 pattern匹配代码为A股深证代码
+[2016-05-09 14:07:27 INFO]:   --------------------------------------------
+[2016-05-09 14:07:27 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:27 INFO]:      --------------------------------------------
+[2016-05-09 14:07:27 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:27 INFO]:      --------------------------------------------
+[2016-05-09 14:07:28 INFO]:     customerService.login:1
+[2016-05-09 14:07:28 INFO]:      --------------------------------------------
+[2016-05-09 14:07:29 INFO]:     queryService.queryMatch:6
+[2016-05-09 14:07:29 INFO]:      --------------------------------------------
+[2016-05-09 14:07:30 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:30 INFO]:   case:7 pattern匹配代码为不存在的股票代码
+[2016-05-09 14:07:30 INFO]:   --------------------------------------------
+[2016-05-09 14:07:30 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:30 INFO]:      --------------------------------------------
+[2016-05-09 14:07:31 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:31 INFO]:      --------------------------------------------
+[2016-05-09 14:07:31 INFO]:     customerService.login:1
+[2016-05-09 14:07:31 INFO]:      --------------------------------------------
+[2016-05-09 14:07:33 INFO]:     queryService.queryMatch:7
+[2016-05-09 14:07:33 INFO]:      --------------------------------------------
+[2016-05-09 14:07:34 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:34 INFO]:   case:8 pattern匹配代码为不存在的证券简称
+[2016-05-09 14:07:34 INFO]:   --------------------------------------------
+[2016-05-09 14:07:34 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:34 INFO]:      --------------------------------------------
+[2016-05-09 14:07:34 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:34 INFO]:      --------------------------------------------
+[2016-05-09 14:07:35 INFO]:     customerService.login:1
+[2016-05-09 14:07:35 INFO]:      --------------------------------------------
+[2016-05-09 14:07:36 INFO]:     queryService.queryMatch:8
+[2016-05-09 14:07:36 INFO]:      --------------------------------------------
+[2016-05-09 14:07:37 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:37 INFO]:   case:9 pattern匹配代码为空
+[2016-05-09 14:07:37 INFO]:   --------------------------------------------
+[2016-05-09 14:07:37 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:37 INFO]:      --------------------------------------------
+[2016-05-09 14:07:38 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:38 INFO]:      --------------------------------------------
+[2016-05-09 14:07:38 INFO]:     customerService.login:1
+[2016-05-09 14:07:38 INFO]:      --------------------------------------------
+[2016-05-09 14:07:40 INFO]:     queryService.queryMatch:9
+[2016-05-09 14:07:40 INFO]:      --------------------------------------------
+[2016-05-09 14:07:41 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:41 INFO]: 000010. 证券信息及行情查询(queryService.queryMarket)
+[2016-05-09 14:07:41 INFO]: -------------------------------------------------
+[2016-05-09 14:07:41 INFO]:   case:1 老股
+[2016-05-09 14:07:41 INFO]:   --------------------------------------------
+[2016-05-09 14:07:41 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:41 INFO]:      --------------------------------------------
+[2016-05-09 14:07:42 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:42 INFO]:      --------------------------------------------
+[2016-05-09 14:07:43 INFO]:     customerService.login:1
+[2016-05-09 14:07:43 INFO]:      --------------------------------------------
+[2016-05-09 14:07:44 INFO]:     queryService.queryMarket:1
+[2016-05-09 14:07:44 INFO]:      --------------------------------------------
+[2016-05-09 14:07:46 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:46 INFO]:   case:2 次新股
+[2016-05-09 14:07:46 INFO]:   --------------------------------------------
+[2016-05-09 14:07:46 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:46 INFO]:      --------------------------------------------
+[2016-05-09 14:07:47 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:47 INFO]:      --------------------------------------------
+[2016-05-09 14:07:47 INFO]:     customerService.login:1
+[2016-05-09 14:07:47 INFO]:      --------------------------------------------
+[2016-05-09 14:07:49 INFO]:     queryService.queryMarket:2
+[2016-05-09 14:07:49 INFO]:      --------------------------------------------
+[2016-05-09 14:07:51 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:51 INFO]:   case:3 证券代码为空
+[2016-05-09 14:07:51 INFO]:   --------------------------------------------
+[2016-05-09 14:07:51 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:51 INFO]:      --------------------------------------------
+[2016-05-09 14:07:51 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:51 INFO]:      --------------------------------------------
+[2016-05-09 14:07:52 INFO]:     customerService.login:1
+[2016-05-09 14:07:52 INFO]:      --------------------------------------------
+[2016-05-09 14:07:53 INFO]:     queryService.queryMarket:3
+[2016-05-09 14:07:53 INFO]:      --------------------------------------------
+[2016-05-09 14:07:54 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:54 INFO]:   case:4 证券代码不存在
+[2016-05-09 14:07:54 INFO]:   --------------------------------------------
+[2016-05-09 14:07:54 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:54 INFO]:      --------------------------------------------
+[2016-05-09 14:07:54 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:54 INFO]:      --------------------------------------------
+[2016-05-09 14:07:55 INFO]:     customerService.login:1
+[2016-05-09 14:07:55 INFO]:      --------------------------------------------
+[2016-05-09 14:07:56 INFO]:     queryService.queryMarket:4
+[2016-05-09 14:07:56 INFO]:      --------------------------------------------
+[2016-05-09 14:07:57 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:07:57 INFO]:   case:5 交易市场为空
+[2016-05-09 14:07:57 INFO]:   --------------------------------------------
+[2016-05-09 14:07:57 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:07:57 INFO]:      --------------------------------------------
+[2016-05-09 14:07:58 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:07:58 INFO]:      --------------------------------------------
+[2016-05-09 14:07:59 INFO]:     customerService.login:1
+[2016-05-09 14:07:59 INFO]:      --------------------------------------------
+[2016-05-09 14:08:00 INFO]:     queryService.queryMarket:5
+[2016-05-09 14:08:00 INFO]:      --------------------------------------------
+[2016-05-09 14:08:01 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:01 INFO]:   case:6 交易市场不存在
+[2016-05-09 14:08:01 INFO]:   --------------------------------------------
+[2016-05-09 14:08:01 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:01 INFO]:      --------------------------------------------
+[2016-05-09 14:08:01 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:01 INFO]:      --------------------------------------------
+[2016-05-09 14:08:02 INFO]:     customerService.login:1
+[2016-05-09 14:08:02 INFO]:      --------------------------------------------
+[2016-05-09 14:08:03 INFO]:     queryService.queryMarket:6
+[2016-05-09 14:08:03 INFO]:      --------------------------------------------
+[2016-05-09 14:08:04 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:04 INFO]:   case:7 证券代码与交易市场不匹配
+[2016-05-09 14:08:04 INFO]:   --------------------------------------------
+[2016-05-09 14:08:04 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:04 INFO]:      --------------------------------------------
+[2016-05-09 14:08:05 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:05 INFO]:      --------------------------------------------
+[2016-05-09 14:08:05 INFO]:     customerService.login:1
+[2016-05-09 14:08:05 INFO]:      --------------------------------------------
+[2016-05-09 14:08:07 INFO]:     queryService.queryMarket:7
+[2016-05-09 14:08:07 INFO]:      --------------------------------------------
+[2016-05-09 14:08:08 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:08 INFO]: 000011. 股票匹配精确查询(queryService.queryMatchExact)
+[2016-05-09 14:08:08 INFO]: -------------------------------------------------
+[2016-05-09 14:08:08 INFO]:   case:1 老股
+[2016-05-09 14:08:08 INFO]:   --------------------------------------------
+[2016-05-09 14:08:08 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:08 INFO]:      --------------------------------------------
+[2016-05-09 14:08:09 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:09 INFO]:      --------------------------------------------
+[2016-05-09 14:08:09 INFO]:     customerService.login:1
+[2016-05-09 14:08:09 INFO]:      --------------------------------------------
+[2016-05-09 14:08:11 INFO]:     queryService.queryMatchExact:1
+[2016-05-09 14:08:11 INFO]:      --------------------------------------------
+[2016-05-09 14:08:12 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:12 INFO]:   case:2 次新股
+[2016-05-09 14:08:12 INFO]:   --------------------------------------------
+[2016-05-09 14:08:12 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:12 INFO]:      --------------------------------------------
+[2016-05-09 14:08:12 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:12 INFO]:      --------------------------------------------
+[2016-05-09 14:08:13 INFO]:     customerService.login:1
+[2016-05-09 14:08:13 INFO]:      --------------------------------------------
+[2016-05-09 14:08:15 INFO]:     queryService.queryMatchExact:2
+[2016-05-09 14:08:15 INFO]:      --------------------------------------------
+[2016-05-09 14:08:15 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:15 INFO]:   case:3 输入参数正确－证券代码不足5位
+[2016-05-09 14:08:15 INFO]:   --------------------------------------------
+[2016-05-09 14:08:15 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:15 INFO]:      --------------------------------------------
+[2016-05-09 14:08:16 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:16 INFO]:      --------------------------------------------
+[2016-05-09 14:08:16 INFO]:     customerService.login:1
+[2016-05-09 14:08:16 INFO]:      --------------------------------------------
+[2016-05-09 14:08:18 INFO]:     queryService.queryMatchExact:3
+[2016-05-09 14:08:18 INFO]:      --------------------------------------------
+[2016-05-09 14:08:19 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:19 INFO]:   case:4 输入参数正确－证券代码不存在
+[2016-05-09 14:08:19 INFO]:   --------------------------------------------
+[2016-05-09 14:08:19 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:19 INFO]:      --------------------------------------------
+[2016-05-09 14:08:19 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:19 INFO]:      --------------------------------------------
+[2016-05-09 14:08:20 INFO]:     customerService.login:1
+[2016-05-09 14:08:20 INFO]:      --------------------------------------------
+[2016-05-09 14:08:22 INFO]:     queryService.queryMatchExact:4
+[2016-05-09 14:08:22 INFO]:      --------------------------------------------
+[2016-05-09 14:08:22 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:22 INFO]: 000013.委托撤单(tradeService.cancelTrans)
+[2016-05-09 14:08:22 INFO]: -------------------------------------------------
+[2016-05-09 14:08:23 INFO]:   case:1 委托撤单成功！
+[2016-05-09 14:08:23 INFO]:   --------------------------------------------
+[2016-05-09 14:08:23 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:23 INFO]:      --------------------------------------------
+[2016-05-09 14:08:23 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:23 INFO]:      --------------------------------------------
+[2016-05-09 14:08:24 INFO]:     customerService.login:1
+[2016-05-09 14:08:24 INFO]:      --------------------------------------------
+[2016-05-09 14:08:26 INFO]:     tradeService.confirmTrans:1
+[2016-05-09 14:08:26 INFO]:      --------------------------------------------
+[2016-05-09 14:08:27 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:08:27 INFO]:      --------------------------------------------
+[2016-05-09 14:08:28 INFO]:     tradeService.cancelTrans:1
+[2016-05-09 14:08:28 INFO]:      --------------------------------------------
+[2016-05-09 14:08:31 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:31 INFO]:   case:2 fundid资金账户为空
+[2016-05-09 14:08:31 INFO]:   --------------------------------------------
+[2016-05-09 14:08:31 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:31 INFO]:      --------------------------------------------
+[2016-05-09 14:08:32 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:32 INFO]:      --------------------------------------------
+[2016-05-09 14:08:32 INFO]:     customerService.login:1
+[2016-05-09 14:08:32 INFO]:      --------------------------------------------
+[2016-05-09 14:08:36 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:08:36 INFO]:      --------------------------------------------
+[2016-05-09 14:08:37 INFO]:     tradeService.cancelTrans:2
+[2016-05-09 14:08:37 INFO]:      --------------------------------------------
+[2016-05-09 14:08:37 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:37 INFO]:   case:3 fundid资金账户不存在
+[2016-05-09 14:08:37 INFO]:   --------------------------------------------
+[2016-05-09 14:08:37 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:37 INFO]:      --------------------------------------------
+[2016-05-09 14:08:38 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:38 INFO]:      --------------------------------------------
+[2016-05-09 14:08:38 INFO]:     customerService.login:1
+[2016-05-09 14:08:38 INFO]:      --------------------------------------------
+[2016-05-09 14:08:41 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:08:41 INFO]:      --------------------------------------------
+[2016-05-09 14:08:42 INFO]:     tradeService.cancelTrans:3
+[2016-05-09 14:08:42 INFO]:      --------------------------------------------
+[2016-05-09 14:08:43 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:43 INFO]:   case:4 ordersno委托序号为空
+[2016-05-09 14:08:43 INFO]:   --------------------------------------------
+[2016-05-09 14:08:43 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:43 INFO]:      --------------------------------------------
+[2016-05-09 14:08:44 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:44 INFO]:      --------------------------------------------
+[2016-05-09 14:08:44 INFO]:     customerService.login:1
+[2016-05-09 14:08:44 INFO]:      --------------------------------------------
+[2016-05-09 14:08:47 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:08:47 INFO]:      --------------------------------------------
+[2016-05-09 14:08:48 INFO]:     tradeService.cancelTrans:4
+[2016-05-09 14:08:48 INFO]:      --------------------------------------------
+[2016-05-09 14:08:49 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:08:49 INFO]:   case:5 ordersno委托序号不存在
+[2016-05-09 14:08:49 INFO]:   --------------------------------------------
+[2016-05-09 14:08:49 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:08:49 INFO]:      --------------------------------------------
+[2016-05-09 14:08:49 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:08:49 INFO]:      --------------------------------------------
+[2016-05-09 14:08:50 INFO]:     customerService.login:1
+[2016-05-09 14:08:50 INFO]:      --------------------------------------------
+[2016-05-09 14:08:53 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:08:53 INFO]:      --------------------------------------------
+[2016-05-09 14:08:54 INFO]:     tradeService.cancelTrans:5
+[2016-05-09 14:08:54 INFO]:      --------------------------------------------
+[2016-05-09 14:09:04 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:09:05 INFO]:   case:6 ordersno委托序号为字符
+[2016-05-09 14:09:05 INFO]:   --------------------------------------------
+[2016-05-09 14:09:05 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:05 INFO]:      --------------------------------------------
+[2016-05-09 14:09:05 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:05 INFO]:      --------------------------------------------
+[2016-05-09 14:09:06 INFO]:     customerService.login:1
+[2016-05-09 14:09:06 INFO]:      --------------------------------------------
+[2016-05-09 14:09:07 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:07 INFO]:      --------------------------------------------
+[2016-05-09 14:09:08 INFO]:     tradeService.cancelTrans:6
+[2016-05-09 14:09:08 INFO]:      --------------------------------------------
+[2016-05-09 14:09:19 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:09:19 INFO]: 000023.委托变更(tradeService.changeTrans)
+[2016-05-09 14:09:19 INFO]: -------------------------------------------------
+[2016-05-09 14:09:19 INFO]:   case:1 委托变更成功！
+[2016-05-09 14:09:19 INFO]:   --------------------------------------------
+[2016-05-09 14:09:19 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:19 INFO]:      --------------------------------------------
+[2016-05-09 14:09:20 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:20 INFO]:      --------------------------------------------
+[2016-05-09 14:09:20 INFO]:     customerService.login:1
+[2016-05-09 14:09:20 INFO]:      --------------------------------------------
+[2016-05-09 14:09:23 INFO]:     tradeService.confirmTrans:1
+[2016-05-09 14:09:23 INFO]:      --------------------------------------------
+[2016-05-09 14:09:24 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:24 INFO]:      --------------------------------------------
+[2016-05-09 14:09:25 INFO]:     tradeService.changeTrans:1
+[2016-05-09 14:09:25 INFO]:      --------------------------------------------
+[2016-05-09 14:09:26 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:09:26 ERROR]:         [Failed]:message expect is 请求成功,real is 订单已不在交易所排队！
+[2016-05-09 14:09:26 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['msgok'])
+[2016-05-09 14:09:26 ERROR]:         [Failed]:data.msgok expect is 委托变更成功！,real is 
+[2016-05-09 14:09:26 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:09:26 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB009', u'sessionId': '80082975-d898-4de6-a514-82322243b5d3', u'price': '1.6', u'ordersno': '160509000002', u'qty': '4000'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:09:26 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"订单已不在交易所排队！\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:09:26 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:09:26 INFO]:   case:2 fundid资金账户为空
+[2016-05-09 14:09:26 INFO]:   --------------------------------------------
+[2016-05-09 14:09:26 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:26 INFO]:      --------------------------------------------
+[2016-05-09 14:09:27 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:27 INFO]:      --------------------------------------------
+[2016-05-09 14:09:27 INFO]:     customerService.login:1
+[2016-05-09 14:09:27 INFO]:      --------------------------------------------
+[2016-05-09 14:09:29 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:29 INFO]:      --------------------------------------------
+[2016-05-09 14:09:30 INFO]:     tradeService.changeTrans:2
+[2016-05-09 14:09:30 INFO]:      --------------------------------------------
+[2016-05-09 14:09:30 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:09:31 INFO]:   case:3 fundid资金账户不存在
+[2016-05-09 14:09:31 INFO]:   --------------------------------------------
+[2016-05-09 14:09:31 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:31 INFO]:      --------------------------------------------
+[2016-05-09 14:09:31 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:31 INFO]:      --------------------------------------------
+[2016-05-09 14:09:32 INFO]:     customerService.login:1
+[2016-05-09 14:09:32 INFO]:      --------------------------------------------
+[2016-05-09 14:09:33 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:33 INFO]:      --------------------------------------------
+[2016-05-09 14:09:34 INFO]:     tradeService.changeTrans:3
+[2016-05-09 14:09:34 INFO]:      --------------------------------------------
+[2016-05-09 14:09:35 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:09:35 INFO]:   case:4 ordersno委托序号为空
+[2016-05-09 14:09:35 INFO]:   --------------------------------------------
+[2016-05-09 14:09:35 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:35 INFO]:      --------------------------------------------
+[2016-05-09 14:09:36 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:36 INFO]:      --------------------------------------------
+[2016-05-09 14:09:36 INFO]:     customerService.login:1
+[2016-05-09 14:09:36 INFO]:      --------------------------------------------
+[2016-05-09 14:09:38 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:38 INFO]:      --------------------------------------------
+[2016-05-09 14:09:39 INFO]:     tradeService.changeTrans:4
+[2016-05-09 14:09:39 INFO]:      --------------------------------------------
+[2016-05-09 14:09:40 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:09:40 INFO]:   case:5 ordersno委托序号不存在
+[2016-05-09 14:09:40 INFO]:   --------------------------------------------
+[2016-05-09 14:09:40 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:40 INFO]:      --------------------------------------------
+[2016-05-09 14:09:41 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:41 INFO]:      --------------------------------------------
+[2016-05-09 14:09:41 INFO]:     customerService.login:1
+[2016-05-09 14:09:41 INFO]:      --------------------------------------------
+[2016-05-09 14:09:43 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:43 INFO]:      --------------------------------------------
+[2016-05-09 14:09:45 INFO]:     tradeService.changeTrans:5
+[2016-05-09 14:09:45 INFO]:      --------------------------------------------
+[2016-05-09 14:09:55 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:09:55 INFO]:   case:6 ordersno委托序号为字符
+[2016-05-09 14:09:55 INFO]:   --------------------------------------------
+[2016-05-09 14:09:55 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:09:55 INFO]:      --------------------------------------------
+[2016-05-09 14:09:56 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:09:56 INFO]:      --------------------------------------------
+[2016-05-09 14:09:56 INFO]:     customerService.login:1
+[2016-05-09 14:09:56 INFO]:      --------------------------------------------
+[2016-05-09 14:09:58 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:09:58 INFO]:      --------------------------------------------
+[2016-05-09 14:09:59 INFO]:     tradeService.changeTrans:6
+[2016-05-09 14:09:59 INFO]:      --------------------------------------------
+[2016-05-09 14:10:10 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:10 INFO]:   case:7 price价格为空
+[2016-05-09 14:10:10 INFO]:   --------------------------------------------
+[2016-05-09 14:10:10 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:10 INFO]:      --------------------------------------------
+[2016-05-09 14:10:10 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:10 INFO]:      --------------------------------------------
+[2016-05-09 14:10:11 INFO]:     customerService.login:1
+[2016-05-09 14:10:11 INFO]:      --------------------------------------------
+[2016-05-09 14:10:13 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:13 INFO]:      --------------------------------------------
+[2016-05-09 14:10:14 INFO]:     tradeService.changeTrans:7
+[2016-05-09 14:10:14 INFO]:      --------------------------------------------
+[2016-05-09 14:10:15 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:15 INFO]:   case:8 price价格为0
+[2016-05-09 14:10:15 INFO]:   --------------------------------------------
+[2016-05-09 14:10:15 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:15 INFO]:      --------------------------------------------
+[2016-05-09 14:10:15 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:15 INFO]:      --------------------------------------------
+[2016-05-09 14:10:16 INFO]:     customerService.login:1
+[2016-05-09 14:10:16 INFO]:      --------------------------------------------
+[2016-05-09 14:10:18 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:18 INFO]:      --------------------------------------------
+[2016-05-09 14:10:19 INFO]:     tradeService.changeTrans:8
+[2016-05-09 14:10:19 INFO]:      --------------------------------------------
+[2016-05-09 14:10:19 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:20 INFO]:   case:9 price价格为非数字
+[2016-05-09 14:10:20 INFO]:   --------------------------------------------
+[2016-05-09 14:10:20 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:20 INFO]:      --------------------------------------------
+[2016-05-09 14:10:20 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:20 INFO]:      --------------------------------------------
+[2016-05-09 14:10:20 INFO]:     customerService.login:1
+[2016-05-09 14:10:20 INFO]:      --------------------------------------------
+[2016-05-09 14:10:23 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:23 INFO]:      --------------------------------------------
+[2016-05-09 14:10:24 INFO]:     tradeService.changeTrans:9
+[2016-05-09 14:10:24 INFO]:      --------------------------------------------
+[2016-05-09 14:10:24 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:24 INFO]:   case:10 price价格为负数
+[2016-05-09 14:10:24 INFO]:   --------------------------------------------
+[2016-05-09 14:10:24 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:24 INFO]:      --------------------------------------------
+[2016-05-09 14:10:25 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:25 INFO]:      --------------------------------------------
+[2016-05-09 14:10:25 INFO]:     customerService.login:1
+[2016-05-09 14:10:25 INFO]:      --------------------------------------------
+[2016-05-09 14:10:27 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:27 INFO]:      --------------------------------------------
+[2016-05-09 14:10:28 INFO]:     tradeService.changeTrans:10
+[2016-05-09 14:10:28 INFO]:      --------------------------------------------
+[2016-05-09 14:10:29 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:29 INFO]:   case:11 qty数量为空
+[2016-05-09 14:10:29 INFO]:   --------------------------------------------
+[2016-05-09 14:10:29 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:29 INFO]:      --------------------------------------------
+[2016-05-09 14:10:29 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:29 INFO]:      --------------------------------------------
+[2016-05-09 14:10:30 INFO]:     customerService.login:1
+[2016-05-09 14:10:30 INFO]:      --------------------------------------------
+[2016-05-09 14:10:32 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:32 INFO]:      --------------------------------------------
+[2016-05-09 14:10:33 INFO]:     tradeService.changeTrans:11
+[2016-05-09 14:10:33 INFO]:      --------------------------------------------
+[2016-05-09 14:10:33 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:33 INFO]:   case:12 qty数量为0
+[2016-05-09 14:10:33 INFO]:   --------------------------------------------
+[2016-05-09 14:10:33 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:33 INFO]:      --------------------------------------------
+[2016-05-09 14:10:34 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:34 INFO]:      --------------------------------------------
+[2016-05-09 14:10:34 INFO]:     customerService.login:1
+[2016-05-09 14:10:34 INFO]:      --------------------------------------------
+[2016-05-09 14:10:36 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:36 INFO]:      --------------------------------------------
+[2016-05-09 14:10:37 INFO]:     tradeService.changeTrans:12
+[2016-05-09 14:10:37 INFO]:      --------------------------------------------
+[2016-05-09 14:10:38 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:38 INFO]:   case:13 qty数量为非数字
+[2016-05-09 14:10:38 INFO]:   --------------------------------------------
+[2016-05-09 14:10:38 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:38 INFO]:      --------------------------------------------
+[2016-05-09 14:10:38 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:38 INFO]:      --------------------------------------------
+[2016-05-09 14:10:39 INFO]:     customerService.login:1
+[2016-05-09 14:10:39 INFO]:      --------------------------------------------
+[2016-05-09 14:10:41 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:41 INFO]:      --------------------------------------------
+[2016-05-09 14:10:41 INFO]:     tradeService.changeTrans:13
+[2016-05-09 14:10:41 INFO]:      --------------------------------------------
+[2016-05-09 14:10:42 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:10:42 INFO]:   case:14 qty数量为负数
+[2016-05-09 14:10:42 INFO]:   --------------------------------------------
+[2016-05-09 14:10:42 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:42 INFO]:      --------------------------------------------
+[2016-05-09 14:10:43 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:43 INFO]:      --------------------------------------------
+[2016-05-09 14:10:43 INFO]:     customerService.login:1
+[2016-05-09 14:10:43 INFO]:      --------------------------------------------
+[2016-05-09 14:10:45 INFO]:     queryService.queryOrders:1
+[2016-05-09 14:10:45 INFO]:      --------------------------------------------
+[2016-05-09 14:10:46 INFO]:     tradeService.changeTrans:14
+[2016-05-09 14:10:46 INFO]:      --------------------------------------------
+[2016-05-09 14:10:46 ERROR]:         [Failed]:message expect is 交易数量设置错误！,real is 交易数量设置错误！数量必须为非零正整数
+[2016-05-09 14:10:46 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:10:46 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB009', u'sessionId': '2930a62c-67b7-4489-adc3-5d081cbb5167', u'price': u'1.48', u'ordersno': '160509000002', u'qty': '-100'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:10:46 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"交易数量设置错误！数量必须为非零正整数\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:10:46 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:10:46 INFO]: 000018.修改用户资料（customerService.modifyUserInfo）
+[2016-05-09 14:10:46 INFO]: -------------------------------------------------
+[2016-05-09 14:10:47 INFO]:   case:1 修改用户资料-email，telephone都正确
+[2016-05-09 14:10:47 INFO]:   --------------------------------------------
+[2016-05-09 14:10:47 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:10:47 INFO]:      --------------------------------------------
+[2016-05-09 14:10:47 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:10:47 INFO]:      --------------------------------------------
+[2016-05-09 14:10:48 INFO]:     customerService.login:1
+[2016-05-09 14:10:48 INFO]:      --------------------------------------------
+[2016-05-09 14:10:50 INFO]:     customerService.modifyUserInfo:1
+[2016-05-09 14:10:50 INFO]:      --------------------------------------------
+[2016-05-09 14:12:50 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:12:50 ERROR]:         [Failed]:message expect is 请求成功,real is 调用GBS接口失败:Operation successful.
+[2016-05-09 14:12:50 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['email'])
+[2016-05-09 14:12:50 ERROR]:         [Failed]:data.email expect is 123@163.com,real is 
+[2016-05-09 14:12:50 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['telephone'])
+[2016-05-09 14:12:50 ERROR]:         [Failed]:data.telephone expect is 92345556710,real is 
+[2016-05-09 14:12:50 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:12:50 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {'fundid': 'IGB009', u'sessionId': '538761e7-c271-4ca8-bf5c-71b0ab43bac2', u'custid': u'IGB009', u'email': '123@163.com', u'telephone': '92345556710'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:12:50 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"调用GBS接口失败:Operation successful.\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:12:51 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:12:51 INFO]:   case:2 修改用户资料-email，telephone都为空
+[2016-05-09 14:12:51 INFO]:   --------------------------------------------
+[2016-05-09 14:12:51 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:12:51 INFO]:      --------------------------------------------
+[2016-05-09 14:12:52 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:12:52 INFO]:      --------------------------------------------
+[2016-05-09 14:12:52 INFO]:     customerService.login:1
+[2016-05-09 14:12:52 INFO]:      --------------------------------------------
+[2016-05-09 14:12:54 INFO]:     customerService.modifyUserInfo:2
+[2016-05-09 14:12:54 INFO]:      --------------------------------------------
+[2016-05-09 14:12:54 INFO]:   [CaseResult]:Pass
+[2016-05-09 14:12:54 INFO]:   case:3 修改用户资料-只修改email
+[2016-05-09 14:12:54 INFO]:   --------------------------------------------
+[2016-05-09 14:12:54 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:12:54 INFO]:      --------------------------------------------
+[2016-05-09 14:12:55 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:12:55 INFO]:      --------------------------------------------
+[2016-05-09 14:12:55 INFO]:     customerService.login:1
+[2016-05-09 14:12:55 INFO]:      --------------------------------------------
+[2016-05-09 14:12:57 INFO]:     customerService.modifyUserInfo:3
+[2016-05-09 14:12:57 INFO]:      --------------------------------------------
+[2016-05-09 14:13:04 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:13:04 ERROR]:         [Failed]:message expect is 请求成功,real is 调用GBS接口失败:Operation successful.
+[2016-05-09 14:13:04 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['email'])
+[2016-05-09 14:13:04 ERROR]:         [Failed]:data.email expect is 234@163.com,real is 
+[2016-05-09 14:13:04 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:13:04 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {'fundid': 'IGB009', u'sessionId': '6a1f2c33-b88a-4f35-b401-95185cdf5a85', u'custid': u'IGB009', u'email': '234@163.com', u'telephone': u'3420'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:13:04 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"调用GBS接口失败:Operation successful.\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:13:04 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:13:04 INFO]:   case:4 修改用户资料-只修改telephone
+[2016-05-09 14:13:04 INFO]:   --------------------------------------------
+[2016-05-09 14:13:04 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:13:04 INFO]:      --------------------------------------------
+[2016-05-09 14:13:05 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:13:05 INFO]:      --------------------------------------------
+[2016-05-09 14:13:05 INFO]:     customerService.login:1
+[2016-05-09 14:13:05 INFO]:      --------------------------------------------
+[2016-05-09 14:13:07 INFO]:     customerService.modifyUserInfo:4
+[2016-05-09 14:13:07 INFO]:      --------------------------------------------
+[2016-05-09 14:13:15 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:13:15 ERROR]:         [Failed]:message expect is 请求成功,real is 调用GBS接口失败:Operation successful.
+[2016-05-09 14:13:15 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['telephone'])
+[2016-05-09 14:13:15 ERROR]:         [Failed]:data.telephone expect is 52345556701,real is 
+[2016-05-09 14:13:15 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:13:15 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {'fundid': 'IGB009', u'sessionId': '718d6242-e89a-4459-9169-adf30b668808', u'custid': u'IGB009', u'email': u'', u'telephone': 52345556701L}, u'securitiesCode': u'06'}}
+[2016-05-09 14:13:15 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"调用GBS接口失败:Operation successful.\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:13:15 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:13:15 INFO]: 000019.查询用户资料（customerService.queryUserInfo)
+[2016-05-09 14:13:15 INFO]: -------------------------------------------------
+[2016-05-09 14:13:15 INFO]:   case:1 查询用户资料
+[2016-05-09 14:13:15 INFO]:   --------------------------------------------
+[2016-05-09 14:13:15 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:13:15 INFO]:      --------------------------------------------
+[2016-05-09 14:13:16 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:13:16 INFO]:      --------------------------------------------
+[2016-05-09 14:13:16 INFO]:     customerService.login:1
+[2016-05-09 14:13:16 INFO]:      --------------------------------------------
+[2016-05-09 14:13:18 INFO]:     customerService.modifyUserInfo:1
+[2016-05-09 14:13:18 INFO]:      --------------------------------------------
+[2016-05-09 14:13:26 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:13:26 ERROR]:         [Failed]:message expect is 请求成功,real is 调用GBS接口失败:Operation successful.
+[2016-05-09 14:13:26 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['email'])
+[2016-05-09 14:13:26 ERROR]:         [Failed]:data.email expect is 123@163.com,real is 
+[2016-05-09 14:13:26 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['telephone'])
+[2016-05-09 14:13:26 ERROR]:         [Failed]:data.telephone expect is 92345556710,real is 
+[2016-05-09 14:13:26 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:13:26 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {'fundid': 'IGB009', u'sessionId': 'b9443535-beba-4075-ab7d-4ff0ecc85046', u'custid': u'IGB009', u'email': '123@163.com', u'telephone': '92345556710'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:13:26 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"调用GBS接口失败:Operation successful.\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:13:26 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:13:26 INFO]: 000020.入金(bankStockService.transferBankToSecurity)
+[2016-05-09 14:13:26 INFO]: -------------------------------------------------
+[2016-05-09 14:13:26 INFO]:   case:1 银行转证券(入金）成功-人民币
+[2016-05-09 14:13:26 INFO]:   --------------------------------------------
+[2016-05-09 14:13:26 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:13:26 INFO]:      --------------------------------------------
+[2016-05-09 14:13:27 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:13:27 INFO]:      --------------------------------------------
+[2016-05-09 14:13:27 INFO]:     customerService.login:1
+[2016-05-09 14:13:27 INFO]:      --------------------------------------------
+[2016-05-09 14:13:29 INFO]:     bankStockService.transferBankToSecurity:1
+[2016-05-09 14:13:29 INFO]:      --------------------------------------------
+[2016-05-09 14:13:30 ERROR]:         [Failed]:message expect is 1;
+message,real is Required field 'api' was not present! Struct: Request(api:null, version:null, data:{"CommonRequest": {"userId": "123", "dynamicMap": {"fundid": "IGB008", "bankcardno": "622214568976354217777", "name": "张三", "tranamt": "1001", "tranflowno": "2016042011000", "sessionId": "9770ded0-6410-4bf6-9c94-cc60a8ca4f2e", "bank": "中国工商银行", "cur": "0"}, "securit, buffer:null)
+[2016-05-09 14:13:30 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB008', u'bankcardno': '622214568976354217777', u'name': '\xe5\xbc\xa0\xe4\xb8\x89', u'tranamt': '1001', u'tranflowno': '2016042011000', u'sessionId': '9770ded0-6410-4bf6-9c94-cc60a8ca4f2e', u'bank': '\xe4\xb8\xad\xe5\x9b\xbd\xe5\xb7\xa5\xe5\x95\x86\xe9\x93\xb6\xe8\xa1\x8c', u'cur': '0'}, u'securitiesCode': u'06'}}
+[2016-05-09 14:13:30 INFO]:         thrift异常:Required field 'api' was not present! Struct: Request(api:null, version:null, data:{"CommonRequest": {"userId": "123", "dynamicMap": {"fundid": "IGB008", "bankcardno": "622214568976354217777", "name": "张三", "tranamt": "1001", "tranflowno": "2016042011000", "sessionId": "9770ded0-6410-4bf6-9c94-cc60a8ca4f2e", "bank": "中国工商银行", "cur": "0"}, "securit, buffer:null)
+[2016-05-09 14:13:30 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:13:30 INFO]: 000021.出金(bankStockService.transferSecurityToBank)
+[2016-05-09 14:13:30 INFO]: -------------------------------------------------
+[2016-05-09 14:13:31 INFO]:   case:1 出金-所有参数都正确人民币
+[2016-05-09 14:13:31 INFO]:   --------------------------------------------
+[2016-05-09 14:13:31 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:13:31 INFO]:      --------------------------------------------
+[2016-05-09 14:13:31 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:13:31 INFO]:      --------------------------------------------
+[2016-05-09 14:13:32 INFO]:     customerService.login:1
+[2016-05-09 14:13:32 INFO]:      --------------------------------------------
+[2016-05-09 14:13:33 INFO]:     bankStockService.transferSecurityToBank:1
+[2016-05-09 14:13:33 INFO]:      --------------------------------------------
+[2016-05-09 14:13:53 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:13:53 ERROR]:         [Failed]:message expect is 请求成功,real is 调用GBS接口失败:Failed to synchronize withdraw voucher to OMS: SaveFail
+[2016-05-09 14:13:53 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['msgok'])
+[2016-05-09 14:13:53 ERROR]:         [Failed]:data.msgok expect is 出金提交成功！,real is 
+[2016-05-09 14:13:53 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:13:53 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB009', u'tranamt': 1000, u'sessionId': '8e3b3a3d-8620-4a5f-b673-d29690a133a1', u'cur': 0}, u'securitiesCode': u'06'}}
+[2016-05-09 14:13:53 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"调用GBS接口失败:Failed to synchronize withdraw voucher to OMS: SaveFail\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:13:54 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:13:54 INFO]: 000022. 入金查询(bankStockService.queryBankSecuTrans)
+[2016-05-09 14:13:54 INFO]: -------------------------------------------------
+[2016-05-09 14:13:54 INFO]:   case:1 正确查询
+[2016-05-09 14:13:54 INFO]:   --------------------------------------------
+[2016-05-09 14:13:54 INFO]:     customerService.getVerificationCode:1
+[2016-05-09 14:13:54 INFO]:      --------------------------------------------
+[2016-05-09 14:13:55 INFO]:     customerService.isShowAgreement:1
+[2016-05-09 14:13:55 INFO]:      --------------------------------------------
+[2016-05-09 14:13:55 INFO]:     customerService.login:1
+[2016-05-09 14:13:55 INFO]:      --------------------------------------------
+[2016-05-09 14:13:57 INFO]:     bankStockService.transferSecurityToBank:1
+[2016-05-09 14:13:57 INFO]:      --------------------------------------------
+[2016-05-09 14:14:17 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-05-09 14:14:17 ERROR]:         [Failed]:message expect is 请求成功,real is 调用GBS接口失败:Failed to synchronize withdraw voucher to OMS: SaveFail
+[2016-05-09 14:14:17 ERROR]:         [Failed]:命令转换出错,eval(sdic['data']['msgok'])
+[2016-05-09 14:14:17 ERROR]:         [Failed]:data.msgok expect is 出金提交成功！,real is 
+[2016-05-09 14:14:17 ERROR]:      [InterfaceResult]:Failed
+[2016-05-09 14:14:17 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB009', u'tranamt': 1000, u'sessionId': 'b2b0dc35-dd63-42b5-9f56-1e955a68e225', u'cur': 0}, u'securitiesCode': u'06'}}
+[2016-05-09 14:14:17 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"调用GBS接口失败:Failed to synchronize withdraw voucher to OMS: SaveFail\",\"data\":{}}", "result": "true"}
+[2016-05-09 14:14:17 ERROR]:   [CaseResult]:Failed
+[2016-05-09 14:14:17 INFO]: *************************************************************************************************************************
+[2016-05-09 14:14:17 INFO]: *****TestCase Total:89,Succ:79,Failed:10
+[2016-05-09 14:14:17 INFO]: 000001. 用户登录(customerService.login) 共运行8个TestCase,成功8个,失败0个   
+000002. 委托确认(tradeService.confirmTrans) 共运行16个TestCase,成功15个,失败1个   
+000003. 资金查询(queryService.queryFund) 共运行6个TestCase,成功6个,失败0个   
+000004. 股份查询(queryService.queryStock) 共运行4个TestCase,成功4个,失败0个   
+000005. 委托查询(queryService.queryOrders) 共运行7个TestCase,成功7个,失败0个   
+000009. 股票匹配查询(模糊查询)(queryService.queryMatch) 共运行9个TestCase,成功9个,失败0个   
+000010. 证券信息及行情查询(queryService.queryMarket) 共运行7个TestCase,成功7个,失败0个   
+000011. 股票匹配精确查询(queryService.queryMatchExact) 共运行4个TestCase,成功4个,失败0个   
+000013.委托撤单(tradeService.cancelTrans) 共运行6个TestCase,成功6个,失败0个   
+000023.委托变更(tradeService.changeTrans) 共运行14个TestCase,成功12个,失败2个   
+000018.修改用户资料（customerService.modifyUserInfo） 共运行4个TestCase,成功1个,失败3个   
+000019.查询用户资料（customerService.queryUserInfo) 共运行1个TestCase,成功0个,失败1个   
+000020.入金(bankStockService.transferBankToSecurity) 共运行1个TestCase,成功0个,失败1个   
+000021.出金(bankStockService.transferSecurityToBank) 共运行1个TestCase,成功0个,失败1个   
+000022. 入金查询(bankStockService.queryBankSecuTrans) 共运行1个TestCase,成功0个,失败1个   
+

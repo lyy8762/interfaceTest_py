@@ -1,0 +1,28 @@
+[2016-06-21 16:12:29 INFO]: 000001. 用户登录(customerService.login)
+[2016-06-21 16:12:29 INFO]: -------------------------------------------------
+[2016-06-21 16:12:30 INFO]:   case:1 成功登录
+[2016-06-21 16:12:30 INFO]:   --------------------------------------------
+[2016-06-21 16:12:30 INFO]:     customerService.getVerificationCode:1
+[2016-06-21 16:12:30 INFO]:      --------------------------------------------
+[2016-06-21 16:12:31 INFO]:     customerService.isShowAgreement:1
+[2016-06-21 16:12:31 INFO]:      --------------------------------------------
+[2016-06-21 16:12:34 INFO]:     customerService.login:1
+[2016-06-21 16:12:34 INFO]:      --------------------------------------------
+[2016-06-21 16:12:52 ERROR]:         [Failed]:status expect is 1,real is 0
+[2016-06-21 16:12:52 ERROR]:         [Failed]:message expect is 请求成功,real is 请求超时，请重试
+[2016-06-21 16:12:52 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['fundid'])
+[2016-06-21 16:12:52 ERROR]:         [Failed]:data.0.fundid expect is IGB009,real is 
+[2016-06-21 16:12:52 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['secuid'])
+[2016-06-21 16:12:52 ERROR]:         [Failed]:data.0.secuid expect is IGB009,real is 
+[2016-06-21 16:12:52 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['custid'])
+[2016-06-21 16:12:52 ERROR]:         [Failed]:data.0.custid expect is IGB009,real is 
+[2016-06-21 16:12:52 ERROR]:         [Failed]:命令转换出错,eval(sdic['data'][0]['market'])
+[2016-06-21 16:12:52 ERROR]:         [Failed]:data.0.market expect is 4,real is 
+[2016-06-21 16:12:52 ERROR]:      [InterfaceResult]:Failed
+[2016-06-21 16:12:52 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'imei': u'13858045366', u'trdpwd': u'1234abc', u'inputid': u'IGB009', u'inputtype': u'C', u'verifyCode': '3204'}, u'securitiesCode': u'06'}}
+[2016-06-21 16:12:52 INFO]:         output:{"message": "请求成功", "data": "{\"status\":\"0\",\"message\":\"请求超时，请重试\",\"data\":{}}", "result": "true"}
+[2016-06-21 16:12:52 ERROR]:   [CaseResult]:Failed
+[2016-06-21 16:12:52 INFO]:   case:2 inputtype登录类型为空
+[2016-06-21 16:12:52 INFO]:   --------------------------------------------
+[2016-06-21 16:12:52 INFO]:     customerService.getVerificationCode:1
+[2016-06-21 16:12:52 INFO]:      --------------------------------------------

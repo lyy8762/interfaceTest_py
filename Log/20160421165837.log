@@ -1,0 +1,21 @@
+[2016-04-21 16:58:39 INFO]: 000020.入金(bankStockService.transferBankToSecurity)
+[2016-04-21 16:58:39 INFO]: -------------------------------------------------
+[2016-04-21 16:58:39 INFO]:   case:1 银行转证券(入金）成功-人民币
+[2016-04-21 16:58:39 INFO]:   --------------------------------------------
+[2016-04-21 16:58:39 INFO]:     customerService.getVerificationCode:1
+[2016-04-21 16:58:39 INFO]:      --------------------------------------------
+[2016-04-21 16:58:47 INFO]:     customerService.isShowAgreement:1
+[2016-04-21 16:58:47 INFO]:      --------------------------------------------
+[2016-04-21 16:58:47 INFO]:     customerService.login:1
+[2016-04-21 16:58:47 INFO]:      --------------------------------------------
+[2016-04-21 16:58:49 INFO]:     bankStockService.transferBankToSecurity:1
+[2016-04-21 16:58:49 INFO]:      --------------------------------------------
+[2016-04-21 17:03:33 ERROR]:         [Failed]:message expect is 1;
+message,real is Required field 'api' was not present! Struct: Request(api:null, version:null, data:{"CommonRequest": {"userId": "123", "dynamicMap": {"fundid": "IGB009", "bankcardno": "622214568976354217777", "name": "张三", "tranamt": "1001", "tranflowno": "2016042011000", "sessionId": "ea6fd761-bf74-4570-8a1c-6f65d43c3779", "bank": "中国工商银行", "cur": "0"}, "securit, buffer:null)
+[2016-04-21 17:03:33 INFO]:         input:{u'CommonRequest': {u'userId': u'123', u'dynamicMap': {u'fundid': 'IGB009', u'bankcardno': '622214568976354217777', u'name': '\xe5\xbc\xa0\xe4\xb8\x89', u'tranamt': '1001', u'tranflowno': '2016042011000', u'sessionId': 'ea6fd761-bf74-4570-8a1c-6f65d43c3779', u'bank': '\xe4\xb8\xad\xe5\x9b\xbd\xe5\xb7\xa5\xe5\x95\x86\xe9\x93\xb6\xe8\xa1\x8c', u'cur': '0'}, u'securitiesCode': u'06'}}
+[2016-04-21 17:03:33 INFO]:         thrift异常:Required field 'api' was not present! Struct: Request(api:null, version:null, data:{"CommonRequest": {"userId": "123", "dynamicMap": {"fundid": "IGB009", "bankcardno": "622214568976354217777", "name": "张三", "tranamt": "1001", "tranflowno": "2016042011000", "sessionId": "ea6fd761-bf74-4570-8a1c-6f65d43c3779", "bank": "中国工商银行", "cur": "0"}, "securit, buffer:null)
+[2016-04-21 17:03:33 ERROR]:   [CaseResult]:Failed
+[2016-04-21 17:03:34 INFO]: *************************************************************************************************************************
+[2016-04-21 17:03:34 INFO]: *****TestCase Total:1,Succ:0,Failed:1
+[2016-04-21 17:03:34 INFO]: 000020.入金(bankStockService.transferBankToSecurity) 共运行1个TestCase,成功0个,失败1个   
+
